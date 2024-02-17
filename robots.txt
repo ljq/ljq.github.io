@@ -1,0 +1,13 @@
+User-agent: *
+Disallow:
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /content.json
+Disallow: /favicon.ico
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.gif$
+Disallow: /*.png$
+Disallow: /*.bmp$
+Sitemap: https://www.defense.ink/sitemap.xml
