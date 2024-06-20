@@ -6,7 +6,7 @@
   <link href="https://www.defense.ink/atom.xml" rel="self"/>
   
   <link href="https://www.defense.ink/"/>
-  <updated>2024-03-27T17:31:01.654Z</updated>
+  <updated>2024-06-20T03:19:23.541Z</updated>
   <id>https://www.defense.ink/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MySQL 8.0为什么使用utf8mb4_0900_ai_ci默认校对规则，而不使用utf8mb4_general_ci?</title>
+    <link href="https://www.defense.ink/93d6d12a.html"/>
+    <id>https://www.defense.ink/93d6d12a.html</id>
+    <published>2024-06-19T14:02:02.000Z</published>
+    <updated>2024-06-20T03:19:23.541Z</updated>
+    
+    <content type="html"><![CDATA[<!-- toc --><h4 id="MySQL-8-0-选择-utf8mb4-0900-ai-ci作为默认校对规则原因"><a href="#MySQL-8-0-选择-utf8mb4-0900-ai-ci作为默认校对规则原因" class="headerlink" title="MySQL 8.0 选择 utf8mb4_0900_ai_ci作为默认校对规则原因"></a>MySQL 8.0 选择 utf8mb4_0900_ai_ci作为默认校对规则原因</h4><p>MySQL 8.0选择utf8mb4_0900_ai_ci作为默认校对规则，而不使用utf8mb4_general_ci的主要考量：</p><ul><li>这背后的考虑主要基于对全球化支持的增强</li><li>更精确的字符处理以及适应现代应用需求等方面。</li></ul><h4 id="两者差异对比要点："><a href="#两者差异对比要点：" class="headerlink" title="两者差异对比要点："></a>两者差异对比要点：</h4><ul><li><p>全球化支持的增强</p><ul><li>更广泛的字符集支持：utf8mb4_0900_ai_ci支持Unicode 9.0标准，这意味着它可以存储和处理更多的字符，包括许多特殊的emoji表情和其他少见字符。这对于现代应用程序尤为重要，因为它们常常需要处理这些扩展字符集。</li><li>多语言环境的适用性：随着全球化的发展，应用程序需要支持多种语言和字符集。utf8mb4_0900_ai_ci不仅支持更多的语言和字符，还能更准确地处理这些语言中的特定字符问题。</li><li>国际化应用的优选：在涉及多语言和国际化处理的应用中，utf8mb4_0900_ai_ci能够提供更全面的支持，确保数据的准确性和一致性。</li></ul></li><li><p>更精确的字符处理</p><ul><li>不区分重音和大小写：与utf8mb4_general_ci相比，utf8mb4_0900_ai_ci在比较和排序字符时不区分重音和大小写。例如，‘é’和‘e’被认为是相同的字符，‘A’和‘a’也被认为是相同的字符。这种规则对于处理语言如西班牙语和法语等重音丰富的语言尤为重要。</li><li>基于Unicode 9.0的排序和比较规则：通过实现Unicode 9.0的排序和比较规则，utf8mb4_0900_ai_ci提供了更精确、更现代的Unicode支持。这确保了在数据库中对字符进行排序和比较时能够按照最新的国际化标准进行。</li><li>提升搜索和排序的准确性：由于其先进的排序规则，utf8mb4_0900_ai_ci能够更准确地处理涉及重音符号的字符排序，这在许多语言中是必需的。</li></ul></li></ul><span id="more"></span><ul><li><p>适应现代应用需求</p><ul><li>支持最新Unicode规范：Unicode规范不断更新，以包含更多的字符和修正现有的规则。utf8mb4_0900_ai_ci基于较新的Unicode 9.0规范，能够更好地适应未来的应用需求。</li><li>提高数据准确性：在需要高度准确的字符表示和处理的场景中，utf8mb4_0900_ai_ci能够提供更好的支持。例如，电子商务平台和内容管理系统等需要处理多语言字符并保持数据准确性的应用，都会从中受益。</li><li>满足多样化的使用场景：无论是国际化应用还是本地化要求高的应用，utf8mb4_0900_ai_ci都能提供强大的支持，满足多样化的使用场景。</li></ul></li><li><p>性能与优化</p><ul><li>性能的权衡考虑：虽然utf8mb4_0900_ai_ci在处理更复杂的排序和比较规则时可能会牺牲一定的性能，但这与其提供的其他优势相比是值得的。尤其是在现代硬件条件下，这种性能差异的影响越来越小。</li><li>优化字符存储和传输：通过支持更多的字符集，utf8mb4_0900_ai_ci能够在存储和传输数据时更加高效。特别是在处理Emoji表情和其他4字节字符时，其优势尤为明显。</li><li>适应高负载应用环境：在高负载和高并发的应用环境中，utf8mb4_0900_ai_ci能够保持较好的性能表现，同时确保数据的一致性和准确性。</li></ul></li><li><p>兼容性与扩展性</p><ul><li>向下兼容早期版本：尽管utf8mb4_0900_ai_ci是为MySQL 8.0及以上版本设计的，但它也在一定程度上保持了对早期版本的兼容。这使得升级数据库时能够更加平滑地过渡。</li><li>未来扩展的可能性：基于Unicode 9.0规范，utf8mb4_0900_ai_ci在未来可以更容易地适应新的Unicode规范和扩展字符集。这对于确保数据库系统在未来继续有效运行至关重要。</li><li>跨平台和跨系统的支持：由于其强大的兼容性和扩展性，utf8mb4_0900_ai_ci可以在各种平台和系统中使用，确保了广泛的应用范围。</li></ul></li></ul><h4 id="小结："><a href="#小结：" class="headerlink" title="小结："></a>小结：</h4><pre><code>MySQL 8.0采用utf8mb4_0900_ai_ci作为默认校对规则，主要是为了更好地适应全球化应用需求、提供更精确的字符处理能力、并确保数据库系统在未来的持续可用性和扩展性。尽管在性能上可能稍有牺牲，但其带来的长期收益和对现代应用需求的支持使得这一选择具有显著的合理性和前瞻性。</code></pre>]]></content>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+
+&lt;h4 id=&quot;MySQL-8-0-选择-utf8mb4-0900-ai-ci作为默认校对规则原因&quot;&gt;&lt;a href=&quot;#MySQL-8-0-选择-utf8mb4-0900-ai-ci作为默认校对规则原因&quot; class=&quot;headerlink&quot; title=&quot;MySQL 8.0 选择 utf8mb4_0900_ai_ci作为默认校对规则原因&quot;&gt;&lt;/a&gt;MySQL 8.0 选择 utf8mb4_0900_ai_ci作为默认校对规则原因&lt;/h4&gt;&lt;p&gt;MySQL 8.0选择utf8mb4_0900_ai_ci作为默认校对规则，而不使用utf8mb4_general_ci的主要考量：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这背后的考虑主要基于对全球化支持的增强&lt;/li&gt;
+&lt;li&gt;更精确的字符处理以及适应现代应用需求等方面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;两者差异对比要点：&quot;&gt;&lt;a href=&quot;#两者差异对比要点：&quot; class=&quot;headerlink&quot; title=&quot;两者差异对比要点：&quot;&gt;&lt;/a&gt;两者差异对比要点：&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;全球化支持的增强&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;更广泛的字符集支持：utf8mb4_0900_ai_ci支持Unicode 9.0标准，这意味着它可以存储和处理更多的字符，包括许多特殊的emoji表情和其他少见字符。这对于现代应用程序尤为重要，因为它们常常需要处理这些扩展字符集。&lt;/li&gt;
+&lt;li&gt;多语言环境的适用性：随着全球化的发展，应用程序需要支持多种语言和字符集。utf8mb4_0900_ai_ci不仅支持更多的语言和字符，还能更准确地处理这些语言中的特定字符问题。&lt;/li&gt;
+&lt;li&gt;国际化应用的优选：在涉及多语言和国际化处理的应用中，utf8mb4_0900_ai_ci能够提供更全面的支持，确保数据的准确性和一致性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;更精确的字符处理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不区分重音和大小写：与utf8mb4_general_ci相比，utf8mb4_0900_ai_ci在比较和排序字符时不区分重音和大小写。例如，‘é’和‘e’被认为是相同的字符，‘A’和‘a’也被认为是相同的字符。这种规则对于处理语言如西班牙语和法语等重音丰富的语言尤为重要。&lt;/li&gt;
+&lt;li&gt;基于Unicode 9.0的排序和比较规则：通过实现Unicode 9.0的排序和比较规则，utf8mb4_0900_ai_ci提供了更精确、更现代的Unicode支持。这确保了在数据库中对字符进行排序和比较时能够按照最新的国际化标准进行。&lt;/li&gt;
+&lt;li&gt;提升搜索和排序的准确性：由于其先进的排序规则，utf8mb4_0900_ai_ci能够更准确地处理涉及重音符号的字符排序，这在许多语言中是必需的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="Database" scheme="https://www.defense.ink/categories/Database/"/>
+    
+    
+    <category term="mysql8.x" scheme="https://www.defense.ink/tags/mysql8-x/"/>
+    
+    <category term="mysql8.0" scheme="https://www.defense.ink/tags/mysql8-0/"/>
+    
+    <category term="mysql" scheme="https://www.defense.ink/tags/mysql/"/>
+    
+    <category term="utf8mb4" scheme="https://www.defense.ink/tags/utf8mb4/"/>
+    
+    <category term="utf8mb4_0900_ai_ci" scheme="https://www.defense.ink/tags/utf8mb4-0900-ai-ci/"/>
+    
+    <category term="utf8mb4_general_ci" scheme="https://www.defense.ink/tags/utf8mb4-general-ci/"/>
+    
+  </entry>
   
   <entry>
     <title>《如何创建一家像谷歌一样的公司》（How to start Google）- paulgraham - 转载</title>
@@ -615,36 +668,6 @@
     <category term="Go" scheme="https://www.defense.ink/tags/Go/"/>
     
     <category term="go" scheme="https://www.defense.ink/tags/go/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>php laravel artisan 基础命令</title>
-    <link href="https://www.defense.ink/4b985e6d.html"/>
-    <id>https://www.defense.ink/4b985e6d.html</id>
-    <published>2021-05-05T10:03:02.000Z</published>
-    <updated>2024-02-17T03:35:16.589Z</updated>
-    
-    <content type="html"><![CDATA[<!-- toc --><h4 id="php-artisan-常用命令"><a href="#php-artisan-常用命令" class="headerlink" title="php artisan 常用命令"></a>php artisan 常用命令</h4><p>php artisan 常用命令,注意一些版本差异。</p><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line">命令  说明  备注</span><br><span class="line">php artisan make:resource [parameter] 创建api返回格式化资源    &gt;=5.4版本可用</span><br><span class="line">php artisan make:rule [parameter] 创建validate规则    &gt;=5.4版本可用</span><br><span class="line">php artisan make:exception [parameter]    创建异常类   &gt;=5.4版本可用</span><br><span class="line">php artisan make:factory [parameter]  创建工厂类   &gt;=5.4版本可用</span><br><span class="line">php artisan package:discover    重置包的缓存信息    &gt;=5.4版本可用</span><br><span class="line">php artisan storage:link [parameter]  Create a symbolic link from &quot;public/storage&quot; to &quot;storage/app/public&quot;    &gt;=5.4版本可用</span><br><span class="line">php artisan view:clear  清楚所有已编译的视图文件    &gt;=5.4版本可用</span><br><span class="line"> </span><br><span class="line">命令  说明  备注</span><br><span class="line">php artisan clear-compiled  清除编译后的类文件   </span><br><span class="line">php artisan down    使应用程序进入维修模式 </span><br><span class="line">php artisan up  退出应用程序的维护模式 </span><br><span class="line">php artisan env 显示当前框架环境    </span><br><span class="line">php artisan fresh   清除包含框架外的支架  </span><br><span class="line">php artisan help    显示命令行的帮助    </span><br><span class="line">php artisan list    列出命令    </span><br><span class="line">php artisan migrate 运行数据库迁移 </span><br><span class="line">php artisan env 显示当前框架环境    </span><br><span class="line">php artisan optimize    为了更好的框架去优化性能    </span><br><span class="line">php artisan serve   在php开发服务器中服务这个应用    --port 8080，--host 0.0.0.0</span><br><span class="line">php artisan tinker  在应用中交互  </span><br><span class="line">php artisan app:name [parameter]  设置应用程序命名空间</span><br><span class="line">php artisan auth:clear-resets   清除过期的密码重置密钥 未使用过</span><br><span class="line">php artisan cache:clear 清除应用程序缓存    </span><br><span class="line">php artisan cache:table 创建一个缓存数据库表的迁移   </span><br><span class="line">php artisan config:cache    创建一个加载配置的缓存文件   </span><br><span class="line">php artisan config:clear    删除配置的缓存文件   </span><br><span class="line">php artisan db:seed 数据库生成模拟数据   </span><br><span class="line">php artisan event:generate  生成event和listen  需要实现配置eventserviceprivoder</span><br><span class="line">php artisan make:command [parameter]  创建一个新的命令处理程序类   </span><br><span class="line">php artisan make:console [parameter]  生成一个Artisan命令   </span><br><span class="line">php artisan key:generate    设置程序密钥  </span><br><span class="line">php artisan make:controller [parameter]   生成一个资源控制类   </span><br><span class="line">php artisan make:middleware [parameter]   生成一个中间件 </span><br><span class="line">php artisan make:migration [parameter]    生成一个迁移文件    </span><br><span class="line">php artisan make:model [parameter]    生成一个Eloquent 模型类    </span><br><span class="line">php artisan make:provider [parameter] 生成一个服务提供商的类 </span><br><span class="line">php artisan make:request [parameter]  生成一个表单消息类   </span><br><span class="line">php artisan migrate:install [parameter]   创建一个迁移库文件   </span><br><span class="line">php artisan make:migration [parameter]    生成一个迁移文件    </span><br><span class="line">php artisan migrate:refresh [parameter]   复位并重新运行所有的迁移    </span><br><span class="line">php artisan migrate:reset [parameter] 回滚全部数据库迁移   </span><br><span class="line">php artisan migrate:rollback [parameter]  回滚最后一个数据库迁移 </span><br><span class="line">php artisan migrate:status  显示列表的迁移 </span><br><span class="line">php artisan queue:failed    列出全部失败的队列工作 </span><br><span class="line">php artisan queue:failed-table [parameter]    创建一个迁移的失败的队列数据库工作表  </span><br><span class="line">php artisan queue:flush 清除全部失败的队列工作 </span><br><span class="line">php artisan queue:forget [parameter]  删除一个失败的队列工作 </span><br><span class="line">php artisan queue:listen [parameter]  监听一个确定的队列工作</span><br><span class="line">php artisan queue:restart   重启现在正在运行的所有队列工作 </span><br><span class="line">php artisan queue:retry 重试一个失败的队列工作 </span><br><span class="line">php artisan queue:subscribe 订阅URL,放到队列上 </span><br><span class="line">php artisan queue:table 创建一个迁移的队列数据库工作表 </span><br><span class="line">php artisan queue:work  进行下一个队列任务</span><br><span class="line">php artisan route:cache 为了更快的路由登记，创建一个路由缓存文件    </span><br><span class="line">php artisan route:clear 清除路由缓存文件    </span><br><span class="line">php artisan route:list  列出全部的注册路由   </span><br><span class="line">php artisan schedule:run    运行预定命令  </span><br><span class="line">php artisan session:table   创建一个迁移的SESSION数据库工作表    </span><br><span class="line">php artisan vendor:publish  发表一些可以发布的有用的资源来自提供商的插件包 </span><br><span class="line">baum包命令</span><br><span class="line">命令  说明  备注</span><br><span class="line">php artisan baum    Get Baum version notice.    </span><br><span class="line">php artisan baum:install [parameter]  Scaffolds a new migration and model suitable for Baum </span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;!-- toc --&gt;
-
-
-&lt;h4 id=&quot;php-artisan-常用命令&quot;&gt;&lt;a href=&quot;#php-artisan-常用命令&quot; class=&quot;headerlink&quot; title=&quot;php artisan 常用命令&quot;&gt;&lt;/a&gt;php artisan 常用命令&lt;/h4&gt;&lt;p&gt;php artisan 常用命令,注意一些版本差异。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="php" scheme="https://www.defense.ink/categories/php/"/>
-    
-    
-    <category term="php" scheme="https://www.defense.ink/tags/php/"/>
-    
-    <category term="laravel" scheme="https://www.defense.ink/tags/laravel/"/>
-    
-    <category term="laravel-artisan" scheme="https://www.defense.ink/tags/laravel-artisan/"/>
-    
-    <category term="cli" scheme="https://www.defense.ink/tags/cli/"/>
     
   </entry>
   
