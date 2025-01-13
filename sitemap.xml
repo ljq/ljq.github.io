@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/videos/econstories.html</loc>
+    <loc>https://www.defense.ink/videos/howtheeconmachine.html</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/videos/howtheeconmachine.html</loc>
+    <loc>https://www.defense.ink/videos/econstories.html</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/fc526729.html</loc>
+    <loc>https://www.defense.ink/e7a4c7e2.html</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/e7a4c7e2.html</loc>
+    <loc>https://www.defense.ink/fc526729.html</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -308,15 +308,6 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/8aaf9686.html</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.defense.ink/53f6e137.html</loc>
     
     <lastmod>2024-02-17</lastmod>
@@ -380,6 +371,15 @@
   </url>
   
   <url>
+    <loc>https://www.defense.ink/8aaf9686.html</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.defense.ink/49c8ae5b.html</loc>
     
     <lastmod>2024-02-17</lastmod>
@@ -398,7 +398,7 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/78f4f0b0.html</loc>
+    <loc>https://www.defense.ink/b45ac9b7.html</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -407,7 +407,7 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/b45ac9b7.html</loc>
+    <loc>https://www.defense.ink/78f4f0b0.html</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -506,7 +506,7 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/67fb071a.html</loc>
+    <loc>https://www.defense.ink/c603c446.html</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -524,7 +524,7 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/c603c446.html</loc>
+    <loc>https://www.defense.ink/67fb071a.html</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -569,7 +569,7 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/5fc261d7.html</loc>
+    <loc>https://www.defense.ink/8ee4d6e3.html</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -587,7 +587,7 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/8ee4d6e3.html</loc>
+    <loc>https://www.defense.ink/5fc261d7.html</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -635,21 +635,14 @@
   </url>
   
   <url>
+    <loc>https://www.defense.ink/tags/GUI/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.defense.ink/tags/type/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/Cloud-Distributed/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/Distributed-Systems/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -670,6 +663,13 @@
   </url>
   
   <url>
+    <loc>https://www.defense.ink/tags/macro/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.defense.ink/tags/ansi-lib/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -677,7 +677,14 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/tags/macro/</loc>
+    <loc>https://www.defense.ink/tags/Cloud-Distributed/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/tags/Distributed-Systems/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -726,6 +733,20 @@
   </url>
   
   <url>
+    <loc>https://www.defense.ink/tags/JavaScript/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/tags/JS/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.defense.ink/tags/GIT/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -741,20 +762,6 @@
   
   <url>
     <loc>https://www.defense.ink/tags/GPG2/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/JavaScript/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/JS/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -782,7 +789,7 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/tags/GUI/</loc>
+    <loc>https://www.defense.ink/tags/chattr/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -797,13 +804,6 @@
   
   <url>
     <loc>https://www.defense.ink/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%BD%93%E7%B3%BB/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/chattr/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -887,62 +887,6 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/tags/lua/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/Ghostty/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/terminal/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/homebrew/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/macos/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/hexo/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/CDN/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/tags/nginx/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.defense.ink/tags/Go/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -957,14 +901,14 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/tags/GO%E6%96%B9%E6%B3%95%E5%80%BC/</loc>
+    <loc>https://www.defense.ink/tags/Go-chain-operation/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.defense.ink/tags/Go-chain-operation/</loc>
+    <loc>https://www.defense.ink/tags/GO%E6%96%B9%E6%B3%95%E5%80%BC/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1055,13 +999,6 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/tags/Go-Printf/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.defense.ink/tags/reflect%E5%8F%8D%E5%B0%84/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -1111,7 +1048,70 @@
   </url>
   
   <url>
+    <loc>https://www.defense.ink/tags/Go-Printf/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.defense.ink/tags/type%E5%85%B3%E9%94%AE%E8%AF%8D%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/tags/lua/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/tags/Ghostty/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/tags/terminal/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/tags/homebrew/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/tags/macos/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/tags/hexo/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/tags/CDN/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/tags/nginx/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1232,20 +1232,6 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/categories/Algorithm/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/categories/distributed/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.defense.ink/categories/clang/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -1260,6 +1246,20 @@
   </url>
   
   <url>
+    <loc>https://www.defense.ink/categories/Algorithm/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/categories/distributed/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.defense.ink/categories/Database/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -1267,14 +1267,14 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/categories/GIT/</loc>
+    <loc>https://www.defense.ink/categories/JavaScript/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.defense.ink/categories/JavaScript/</loc>
+    <loc>https://www.defense.ink/categories/GIT/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1295,20 +1295,6 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/categories/lua/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.defense.ink/categories/macos/</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.defense.ink/categories/Go/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -1323,14 +1309,14 @@
   </url>
   
   <url>
-    <loc>https://www.defense.ink/categories/linux/openssl/</loc>
+    <loc>https://www.defense.ink/categories/AI/painting/Controlnet/Drawing/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.defense.ink/categories/AI/painting/Controlnet/Drawing/</loc>
+    <loc>https://www.defense.ink/categories/linux/openssl/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1345,6 +1331,20 @@
   
   <url>
     <loc>https://www.defense.ink/categories/linux/debian/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/categories/lua/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.defense.ink/categories/macos/</loc>
     <lastmod>2025-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
