@@ -8,4 +8,4 @@
 | Email | ljqlab@163.com |
 | WeChat | labsec |
 | QQ | 404691073 |
-| Blog | https://www.defense.ink |
+| Blog | https://www.wdft.com |

@@ -3,11 +3,11 @@
   <title>Jack Liu Personal Site (ljq@GitHub).安全贯穿于软件开发各个环节.</title>
   
   <subtitle>Jack Liu Personal Site (ljq@GitHub)</subtitle>
-  <link href="https://www.defense.ink/atom.xml" rel="self"/>
+  <link href="https://www.wdft.com/atom.xml" rel="self"/>
   
-  <link href="https://www.defense.ink/"/>
-  <updated>2025-01-13T13:03:19.977Z</updated>
-  <id>https://www.defense.ink/</id>
+  <link href="https://www.wdft.com/"/>
+  <updated>2025-02-14T09:56:31.264Z</updated>
+  <id>https://www.wdft.com/</id>
   
   <author>
     <name>Jack Liu</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>macOS Ghostty Terminal Ddefault binding keyboard shortcut key list（Ghostty.org Ghostty 终端默认快捷键列表）</title>
-    <link href="https://www.defense.ink/bafde551.html"/>
-    <id>https://www.defense.ink/bafde551.html</id>
+    <link href="https://www.wdft.com/d89a2229.html"/>
+    <id>https://www.wdft.com/d89a2229.html</id>
     <published>2025-01-13T14:02:02.000Z</published>
-    <updated>2025-01-13T13:03:19.977Z</updated>
+    <updated>2025-02-14T09:56:31.264Z</updated>
     
     <content type="html"><![CDATA[<!-- toc --><h3 id="macOS-Ghostty-终端默认快捷键列表"><a href="#macOS-Ghostty-终端默认快捷键列表" class="headerlink" title="macOS Ghostty 终端默认快捷键列表"></a>macOS Ghostty 终端默认快捷键列表</h3><ul><li>基本常用快捷键<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">command + t:                新建标签页</span><br><span class="line">command + n:                新建窗口</span><br><span class="line">command + w:                关闭当前终端界面（标签页或分割窗口）</span><br><span class="line">command + shift + w:        关闭当前窗口</span><br><span class="line">command + shift + enter:    切换分割窗口缩放</span><br><span class="line">command + alt + shift + w:  关闭所有窗口</span><br><span class="line">command + page_up:          向上滚动页面</span><br><span class="line">command + page_down:        向下滚动页面</span><br><span class="line">command + home:             滚动到顶部</span><br><span class="line">command + end:              滚动到底部</span><br><span class="line">command + q:                退出 Ghostty</span><br><span class="line">command + enter:            切换全屏模式</span><br><span class="line">command + ctrl + f:         切换全屏模式</span><br><span class="line">command + c:                复制到剪贴板</span><br><span class="line">command + v:                从剪贴板粘贴</span><br><span class="line">command + a:                全选</span><br><span class="line">command + k:                清空屏幕</span><br><span class="line">command + comma:            打开配置文件</span><br><span class="line">command + alt + i:          切换检查器</span><br></pre></td></tr></table></figure></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">command + shift + [:        切换到上一个标签页</span><br><span class="line">command + shift + ]:        切换到下一个标签页</span><br><span class="line">ctrl + tab:                 切换到下一个标签页</span><br><span class="line">ctrl + shift + tab:         切换到上一个标签页</span><br></pre></td></tr></table></figure><span id="more"></span><ul><li><p>分屏操作快捷键</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">command + d:                在右侧新建分割窗口</span><br><span class="line">command + shift + d:        在下方新建分割窗口</span><br><span class="line">command + alt + right:      切换到右侧分割窗口</span><br><span class="line">command + alt + left:       切换到左侧分割窗口</span><br><span class="line">command + alt + up:         切换到上方分割窗口</span><br><span class="line">command + alt + down:       切换到下方分割窗口</span><br><span class="line">command + [:                切换到上一个分割窗口</span><br><span class="line">command + ]:                切换到下一个分割窗口</span><br><span class="line">command + ctrl + left:      向左调整分割窗口大小</span><br><span class="line">command + ctrl + right:     向右调整分割窗口大小</span><br><span class="line">command + ctrl + up:        向上调整分割窗口大小</span><br><span class="line">command + ctrl + down:      向下调整分割窗口大小</span><br><span class="line">command + ctrl + equal:     使分割窗口大小相等</span><br></pre></td></tr></table></figure></li><li><p>光标和选择快捷键</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">command + up:               跳到上一个提示符位置</span><br><span class="line">command + down:             跳到下一个提示符位置</span><br><span class="line">command + shift +           跳到上一个提示符位置</span><br><span class="line">command + shift + down:     跳到下一个提示符位置</span><br><span class="line">shift + up:                 向上调整选择范围</span><br><span class="line">shift + down:               向下调整选择范围</span><br><span class="line">shift + left:               向左调整选择范围</span><br><span class="line">shift + right:              向右调整选择范围</span><br><span class="line">shift + page_up:            向上调整选择范围（翻页）</span><br><span class="line">shift + page_down:          向下调整选择范围（翻页）</span><br><span class="line">shift + home:               调整选择范围到行首</span><br><span class="line">shift + end:                调整选择范围到行尾</span><br></pre></td></tr></table></figure></li><li><p>光标操作快捷键</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">command + left:             通常是移动到行首</span><br><span class="line">command + right:            通常是移动到行尾</span><br><span class="line">alt + left:                 通常是向左移动一个单词</span><br><span class="line">alt + right:                通常是向右移动一个单词</span><br></pre></td></tr></table></figure></li><li><p>终端标签快捷键</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">command + [Number]:         跳转到标签页Number</span><br></pre></td></tr></table></figure></li></ul>]]></content>
     
@@ -35,23 +35,23 @@
     
     
     
-    <category term="macos" scheme="https://www.defense.ink/categories/macos/"/>
+    <category term="macos" scheme="https://www.wdft.com/categories/macos/"/>
     
     
-    <category term="Ghostty" scheme="https://www.defense.ink/tags/Ghostty/"/>
+    <category term="Ghostty" scheme="https://www.wdft.com/tags/Ghostty/"/>
     
-    <category term="terminal" scheme="https://www.defense.ink/tags/terminal/"/>
+    <category term="terminal" scheme="https://www.wdft.com/tags/terminal/"/>
     
   </entry>
   
   <entry>
     <title>人是怎样废掉的？</title>
-    <link href="https://www.defense.ink/187f82a.html"/>
-    <id>https://www.defense.ink/187f82a.html</id>
+    <link href="https://www.wdft.com/187f82a.html"/>
+    <id>https://www.wdft.com/187f82a.html</id>
     <published>2024-09-28T11:18:08.000Z</published>
     <updated>2024-09-28T11:45:23.797Z</updated>
     
-    <content type="html"><![CDATA[<!-- toc --><ul><li>一、懒</li><li>二、谗</li><li>三、拖延</li><li>四、爱熬夜！：继续睡觉做梦；</li><li>五、自控力差</li><li>六、整天精神内耗</li><li>七、停止思考不学习</li><li>八、假装努力，持续幻想</li><li>九、言语上的巨人，行动上的矮子<span id="more"></span></li></ul><h6 id="同样是睡8时，你为什么不选22-00-6-00？"><a href="#同样是睡8时，你为什么不选22-00-6-00？" class="headerlink" title="同样是睡8时，你为什么不选22:00-6:00？"></a>同样是睡8时，你为什么不选22:00-6:00？</h6><h6 id="而是4-00-12-00？记住：自律的本质，就是亲手杀死另一个颓废的自己。"><a href="#而是4-00-12-00？记住：自律的本质，就是亲手杀死另一个颓废的自己。" class="headerlink" title="而是4:00-12:00？记住：自律的本质，就是亲手杀死另一个颓废的自己。"></a>而是4:00-12:00？记住：自律的本质，就是亲手杀死另一个颓废的自己。</h6><img src="./static/images/daily/2024-09-28-rszmfdd.jpeg" width="600" height="auto"><h4 id="How-do-people-become-useless"><a href="#How-do-people-become-useless" class="headerlink" title="How do people become useless?"></a>How do people become useless?</h4><ul><li>1、 Lazy</li><li>2、 Slander</li><li>3、 Procrastination</li><li>4、 Love staying up late Continue sleeping and dreaming;</li><li>5、 Poor self-control</li><li>6、 Mental exhaustion throughout the day</li><li>7、 Stop thinking and not learning</li><li>8、 Pretend to work hard and keep fantasizing</li><li>9、 A giant in words, a dwarf in action</li></ul><h6 id="Why-don’t-you-choose-22-00-6-00-when-you-sleep-at-8-o’clock"><a href="#Why-don’t-you-choose-22-00-6-00-when-you-sleep-at-8-o’clock" class="headerlink" title="Why don’t you choose 22:00-6:00 when you sleep at 8 o’clock?"></a>Why don’t you choose 22:00-6:00 when you sleep at 8 o’clock?</h6><h6 id="But-instead-of-4-00-12-00-Remember-the-essence-of-self-discipline-is-to-personally-kill-another-decadent-version-of-oneself"><a href="#But-instead-of-4-00-12-00-Remember-the-essence-of-self-discipline-is-to-personally-kill-another-decadent-version-of-oneself" class="headerlink" title="But instead of 4:00-12:00? Remember: the essence of self-discipline is to personally kill another decadent version of oneself."></a>But instead of 4:00-12:00? Remember: the essence of self-discipline is to personally kill another decadent version of oneself.</h6>]]></content>
+    <content type="html"><![CDATA[<!-- toc --><ul><li>一、懒</li><li>二、谗</li><li>三、拖延</li><li>四、爱熬夜！：继续睡觉做梦；</li><li>五、自控力差</li><li>六、整天精神内耗</li><li>七、停止思考不学习</li><li>八、假装努力，持续幻想</li><li>九、言语上的巨人，行动上的矮子<span id="more"></span></li></ul><h6 id="同样是睡8时，你为什么不选22-00-6-00？"><a href="#同样是睡8时，你为什么不选22-00-6-00？" class="headerlink" title="同样是睡8时，你为什么不选22:00-6:00？"></a>同样是睡8时，你为什么不选22:00-6:00？</h6><h6 id="而是4-00-12-00？记住：自律的本质，就是亲手杀死另一个颓废的自己。"><a href="#而是4-00-12-00？记住：自律的本质，就是亲手杀死另一个颓废的自己。" class="headerlink" title="而是4:00-12:00？记住：自律的本质，就是亲手杀死另一个颓废的自己。"></a>而是4:00-12:00？记住：自律的本质，就是亲手杀死另一个颓废的自己。</h6><img src="./static/images/daily/2024-09-28-rszmfdd.jpeg" width="600" height="auto" /><h4 id="How-do-people-become-useless"><a href="#How-do-people-become-useless" class="headerlink" title="How do people become useless?"></a>How do people become useless?</h4><ul><li>1、 Lazy</li><li>2、 Slander</li><li>3、 Procrastination</li><li>4、 Love staying up late Continue sleeping and dreaming;</li><li>5、 Poor self-control</li><li>6、 Mental exhaustion throughout the day</li><li>7、 Stop thinking and not learning</li><li>8、 Pretend to work hard and keep fantasizing</li><li>9、 A giant in words, a dwarf in action</li></ul><h6 id="Why-don’t-you-choose-22-00-6-00-when-you-sleep-at-8-o’clock"><a href="#Why-don’t-you-choose-22-00-6-00-when-you-sleep-at-8-o’clock" class="headerlink" title="Why don’t you choose 22:00-6:00 when you sleep at 8 o’clock?"></a>Why don’t you choose 22:00-6:00 when you sleep at 8 o’clock?</h6><h6 id="But-instead-of-4-00-12-00-Remember-the-essence-of-self-discipline-is-to-personally-kill-another-decadent-version-of-oneself"><a href="#But-instead-of-4-00-12-00-Remember-the-essence-of-self-discipline-is-to-personally-kill-another-decadent-version-of-oneself" class="headerlink" title="But instead of 4:00-12:00? Remember: the essence of self-discipline is to personally kill another decadent version of oneself."></a>But instead of 4:00-12:00? Remember: the essence of self-discipline is to personally kill another decadent version of oneself.</h6>]]></content>
     
     
     <summary type="html">&lt;!-- toc --&gt;
@@ -65,29 +65,29 @@
 &lt;li&gt;六、整天精神内耗&lt;/li&gt;
 &lt;li&gt;七、停止思考不学习&lt;/li&gt;
 &lt;li&gt;八、假装努力，持续幻想&lt;/li&gt;
-&lt;li&gt;九、言语上的巨人，行动上的矮子&lt;/li&gt;&lt;/ul&gt;</summary>
+&lt;li&gt;九、言语上的巨人，行动上的矮子</summary>
     
     
     
-    <category term="daily" scheme="https://www.defense.ink/categories/daily/"/>
+    <category term="daily" scheme="https://www.wdft.com/categories/daily/"/>
     
-    <category term="note" scheme="https://www.defense.ink/categories/daily/note/"/>
+    <category term="note" scheme="https://www.wdft.com/categories/daily/note/"/>
     
     
-    <category term="生活" scheme="https://www.defense.ink/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://www.wdft.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="日常" scheme="https://www.defense.ink/tags/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://www.wdft.com/tags/%E6%97%A5%E5%B8%B8/"/>
     
-    <category term="人生" scheme="https://www.defense.ink/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="人生" scheme="https://www.wdft.com/tags/%E4%BA%BA%E7%94%9F/"/>
     
-    <category term="转载" scheme="https://www.defense.ink/tags/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="转载" scheme="https://www.wdft.com/tags/%E8%BD%AC%E8%BD%BD/"/>
     
   </entry>
   
   <entry>
     <title>Rocky Linux系统初始化常用基础命令和工具包的便捷安装脚本（ljq@GitHub）</title>
-    <link href="https://www.defense.ink/96f1067a.html"/>
-    <id>https://www.defense.ink/96f1067a.html</id>
+    <link href="https://www.wdft.com/96f1067a.html"/>
+    <id>https://www.wdft.com/96f1067a.html</id>
     <published>2024-07-04T13:47:01.000Z</published>
     <updated>2024-07-04T13:51:29.468Z</updated>
     
@@ -103,25 +103,25 @@
     
     
     
-    <category term="linux" scheme="https://www.defense.ink/categories/linux/"/>
+    <category term="linux" scheme="https://www.wdft.com/categories/linux/"/>
     
-    <category term="centos" scheme="https://www.defense.ink/categories/linux/centos/"/>
+    <category term="centos" scheme="https://www.wdft.com/categories/linux/centos/"/>
     
     
-    <category term="linux" scheme="https://www.defense.ink/tags/linux/"/>
+    <category term="linux" scheme="https://www.wdft.com/tags/linux/"/>
     
-    <category term="rocky-linux" scheme="https://www.defense.ink/tags/rocky-linux/"/>
+    <category term="rocky-linux" scheme="https://www.wdft.com/tags/rocky-linux/"/>
     
-    <category term="rocky-linux-tools" scheme="https://www.defense.ink/tags/rocky-linux-tools/"/>
+    <category term="rocky-linux-tools" scheme="https://www.wdft.com/tags/rocky-linux-tools/"/>
     
-    <category term="rocky" scheme="https://www.defense.ink/tags/rocky/"/>
+    <category term="rocky" scheme="https://www.wdft.com/tags/rocky/"/>
     
   </entry>
   
   <entry>
     <title>MySQL 8.0为什么使用utf8mb4_0900_ai_ci默认校对规则，而不使用utf8mb4_general_ci?</title>
-    <link href="https://www.defense.ink/93d6d12a.html"/>
-    <id>https://www.defense.ink/93d6d12a.html</id>
+    <link href="https://www.wdft.com/93d6d12a.html"/>
+    <id>https://www.wdft.com/93d6d12a.html</id>
     <published>2024-06-19T14:02:02.000Z</published>
     <updated>2024-06-20T04:00:37.260Z</updated>
     
@@ -153,27 +153,27 @@
     
     
     
-    <category term="Database" scheme="https://www.defense.ink/categories/Database/"/>
+    <category term="Database" scheme="https://www.wdft.com/categories/Database/"/>
     
     
-    <category term="mysql8.x" scheme="https://www.defense.ink/tags/mysql8-x/"/>
+    <category term="mysql8.x" scheme="https://www.wdft.com/tags/mysql8-x/"/>
     
-    <category term="mysql8.0" scheme="https://www.defense.ink/tags/mysql8-0/"/>
+    <category term="mysql8.0" scheme="https://www.wdft.com/tags/mysql8-0/"/>
     
-    <category term="mysql" scheme="https://www.defense.ink/tags/mysql/"/>
+    <category term="mysql" scheme="https://www.wdft.com/tags/mysql/"/>
     
-    <category term="utf8mb4" scheme="https://www.defense.ink/tags/utf8mb4/"/>
+    <category term="utf8mb4" scheme="https://www.wdft.com/tags/utf8mb4/"/>
     
-    <category term="utf8mb4_0900_ai_ci" scheme="https://www.defense.ink/tags/utf8mb4-0900-ai-ci/"/>
+    <category term="utf8mb4_0900_ai_ci" scheme="https://www.wdft.com/tags/utf8mb4-0900-ai-ci/"/>
     
-    <category term="utf8mb4_general_ci" scheme="https://www.defense.ink/tags/utf8mb4-general-ci/"/>
+    <category term="utf8mb4_general_ci" scheme="https://www.wdft.com/tags/utf8mb4-general-ci/"/>
     
   </entry>
   
   <entry>
     <title>《如何创建一家像谷歌一样的公司》（How to start Google）- paulgraham - 转载</title>
-    <link href="https://www.defense.ink/de20129e.html"/>
-    <id>https://www.defense.ink/de20129e.html</id>
+    <link href="https://www.wdft.com/de20129e.html"/>
+    <id>https://www.wdft.com/de20129e.html</id>
     <published>2024-03-27T16:51:01.000Z</published>
     <updated>2024-03-27T17:31:01.654Z</updated>
     
@@ -188,17 +188,17 @@
     
     
     
-    <category term="reprinted-articles" scheme="https://www.defense.ink/categories/reprinted-articles/"/>
+    <category term="reprinted-articles" scheme="https://www.wdft.com/categories/reprinted-articles/"/>
     
     
-    <category term="Google" scheme="https://www.defense.ink/tags/Google/"/>
+    <category term="Google" scheme="https://www.wdft.com/tags/Google/"/>
     
   </entry>
   
   <entry>
     <title>WDFT (Warped Discrete Fourier Transform)</title>
-    <link href="https://www.defense.ink/e324f38b.html"/>
-    <id>https://www.defense.ink/e324f38b.html</id>
+    <link href="https://www.wdft.com/e324f38b.html"/>
+    <id>https://www.wdft.com/e324f38b.html</id>
     <published>2024-02-17T01:02:00.000Z</published>
     <updated>2024-02-17T06:39:47.108Z</updated>
     
@@ -212,19 +212,19 @@
     
     
     
-    <category term="Algorithm" scheme="https://www.defense.ink/categories/Algorithm/"/>
+    <category term="Algorithm" scheme="https://www.wdft.com/categories/Algorithm/"/>
     
     
-    <category term="clang" scheme="https://www.defense.ink/tags/clang/"/>
+    <category term="clang" scheme="https://www.wdft.com/tags/clang/"/>
     
-    <category term="type" scheme="https://www.defense.ink/tags/type/"/>
+    <category term="type" scheme="https://www.wdft.com/tags/type/"/>
     
   </entry>
   
   <entry>
     <title>AI drawing ControlNet local implementation steps by stable-diffusion-webui（AI绘画ControlNet本地构建实施步骤 by stable-diffusion-webui）</title>
-    <link href="https://www.defense.ink/4de059e7.html"/>
-    <id>https://www.defense.ink/4de059e7.html</id>
+    <link href="https://www.wdft.com/4de059e7.html"/>
+    <id>https://www.wdft.com/4de059e7.html</id>
     <published>2023-08-13T08:28:08.000Z</published>
     <updated>2024-02-17T03:35:16.581Z</updated>
     
@@ -249,25 +249,25 @@
     
     
     
-    <category term="AI" scheme="https://www.defense.ink/categories/AI/"/>
+    <category term="AI" scheme="https://www.wdft.com/categories/AI/"/>
     
-    <category term="painting" scheme="https://www.defense.ink/categories/AI/painting/"/>
+    <category term="painting" scheme="https://www.wdft.com/categories/AI/painting/"/>
     
-    <category term="Controlnet" scheme="https://www.defense.ink/categories/AI/painting/Controlnet/"/>
+    <category term="Controlnet" scheme="https://www.wdft.com/categories/AI/painting/Controlnet/"/>
     
-    <category term="Drawing" scheme="https://www.defense.ink/categories/AI/painting/Controlnet/Drawing/"/>
+    <category term="Drawing" scheme="https://www.wdft.com/categories/AI/painting/Controlnet/Drawing/"/>
     
     
-    <category term="AI" scheme="https://www.defense.ink/tags/AI/"/>
+    <category term="AI" scheme="https://www.wdft.com/tags/AI/"/>
     
-    <category term="stable-diffusion-webui" scheme="https://www.defense.ink/tags/stable-diffusion-webui/"/>
+    <category term="stable-diffusion-webui" scheme="https://www.wdft.com/tags/stable-diffusion-webui/"/>
     
   </entry>
   
   <entry>
     <title>Tribute to the great legendary philanthropist and programmer Bram Moolenaar, the original author and software maintainer of VIM（致敬伟大传奇的慈善家和程序员Bram Moolenaar，VIM最初作者和软件维护者）</title>
-    <link href="https://www.defense.ink/aa470947.html"/>
-    <id>https://www.defense.ink/aa470947.html</id>
+    <link href="https://www.wdft.com/aa470947.html"/>
+    <id>https://www.wdft.com/aa470947.html</id>
     <published>2023-08-06T12:22:08.000Z</published>
     <updated>2024-02-17T03:35:16.582Z</updated>
     
@@ -283,21 +283,21 @@
     
     
     
-    <category term="history-of-programing" scheme="https://www.defense.ink/categories/history-of-programing/"/>
+    <category term="history-of-programing" scheme="https://www.wdft.com/categories/history-of-programing/"/>
     
-    <category term="daily" scheme="https://www.defense.ink/categories/history-of-programing/daily/"/>
+    <category term="daily" scheme="https://www.wdft.com/categories/history-of-programing/daily/"/>
     
     
-    <category term="VIM" scheme="https://www.defense.ink/tags/VIM/"/>
+    <category term="VIM" scheme="https://www.wdft.com/tags/VIM/"/>
     
-    <category term="VIM Author" scheme="https://www.defense.ink/tags/VIM-Author/"/>
+    <category term="VIM Author" scheme="https://www.wdft.com/tags/VIM-Author/"/>
     
   </entry>
   
   <entry>
     <title>Linux login shell信息展示类（neofetch、motd等banner类提示信息展示）导致的rsync服务不可用问题注意事项</title>
-    <link href="https://www.defense.ink/954c81e2.html"/>
-    <id>https://www.defense.ink/954c81e2.html</id>
+    <link href="https://www.wdft.com/954c81e2.html"/>
+    <id>https://www.wdft.com/954c81e2.html</id>
     <published>2023-06-15T14:11:01.000Z</published>
     <updated>2024-02-17T03:35:16.588Z</updated>
     
@@ -322,29 +322,29 @@
     
     
     
-    <category term="linux" scheme="https://www.defense.ink/categories/linux/"/>
+    <category term="linux" scheme="https://www.wdft.com/categories/linux/"/>
     
-    <category term="debian" scheme="https://www.defense.ink/categories/linux/debian/"/>
+    <category term="debian" scheme="https://www.wdft.com/categories/linux/debian/"/>
     
     
-    <category term="linux" scheme="https://www.defense.ink/tags/linux/"/>
+    <category term="linux" scheme="https://www.wdft.com/tags/linux/"/>
     
-    <category term="debian" scheme="https://www.defense.ink/tags/debian/"/>
+    <category term="debian" scheme="https://www.wdft.com/tags/debian/"/>
     
-    <category term="neofetch" scheme="https://www.defense.ink/tags/neofetch/"/>
+    <category term="neofetch" scheme="https://www.wdft.com/tags/neofetch/"/>
     
-    <category term="rsync" scheme="https://www.defense.ink/tags/rsync/"/>
+    <category term="rsync" scheme="https://www.wdft.com/tags/rsync/"/>
     
-    <category term="banner" scheme="https://www.defense.ink/tags/banner/"/>
+    <category term="banner" scheme="https://www.wdft.com/tags/banner/"/>
     
-    <category term="motd" scheme="https://www.defense.ink/tags/motd/"/>
+    <category term="motd" scheme="https://www.wdft.com/tags/motd/"/>
     
   </entry>
   
   <entry>
     <title>Centos7-chattr权限问题导致锁定文件无法解锁且root用户无法编辑</title>
-    <link href="https://www.defense.ink/e7a4c7e2.html"/>
-    <id>https://www.defense.ink/e7a4c7e2.html</id>
+    <link href="https://www.wdft.com/e7a4c7e2.html"/>
+    <id>https://www.wdft.com/e7a4c7e2.html</id>
     <published>2023-06-14T15:11:01.000Z</published>
     <updated>2024-02-17T03:35:16.588Z</updated>
     
@@ -358,27 +358,27 @@
     
     
     
-    <category term="linux" scheme="https://www.defense.ink/categories/linux/"/>
+    <category term="linux" scheme="https://www.wdft.com/categories/linux/"/>
     
-    <category term="centos" scheme="https://www.defense.ink/categories/linux/centos/"/>
+    <category term="centos" scheme="https://www.wdft.com/categories/linux/centos/"/>
     
     
-    <category term="linux" scheme="https://www.defense.ink/tags/linux/"/>
+    <category term="linux" scheme="https://www.wdft.com/tags/linux/"/>
     
-    <category term="centos7" scheme="https://www.defense.ink/tags/centos7/"/>
+    <category term="centos7" scheme="https://www.wdft.com/tags/centos7/"/>
     
-    <category term="chattr" scheme="https://www.defense.ink/tags/chattr/"/>
+    <category term="chattr" scheme="https://www.wdft.com/tags/chattr/"/>
     
   </entry>
   
   <entry>
     <title>macOS系统升级导致brew发行包Nginx服务Service无法启动或启动失败问题解决（MacOS Ventura 13.3）</title>
-    <link href="https://www.defense.ink/8c6562df.html"/>
-    <id>https://www.defense.ink/8c6562df.html</id>
+    <link href="https://www.wdft.com/8c6562df.html"/>
+    <id>https://www.wdft.com/8c6562df.html</id>
     <published>2023-04-07T12:06:32.000Z</published>
-    <updated>2024-02-17T03:35:16.588Z</updated>
+    <updated>2025-01-16T08:19:05.667Z</updated>
     
-    <content type="html"><![CDATA[<!-- toc --><h4 id="macOS系统升级导致brew发行包Nginx服务Service无法启动或启动失败问题解决（MacOS-Ventura-13-3）"><a href="#macOS系统升级导致brew发行包Nginx服务Service无法启动或启动失败问题解决（MacOS-Ventura-13-3）" class="headerlink" title="macOS系统升级导致brew发行包Nginx服务Service无法启动或启动失败问题解决（MacOS Ventura 13.3）"></a>macOS系统升级导致brew发行包Nginx服务Service无法启动或启动失败问题解决（MacOS Ventura 13.3）</h4><h4 id="系统版本：MacOS-Ventura-13-3"><a href="#系统版本：MacOS-Ventura-13-3" class="headerlink" title="系统版本：MacOS Ventura 13.3"></a>系统版本：MacOS Ventura 13.3</h4><h4 id="Nginx服务启动失败问题描述："><a href="#Nginx服务启动失败问题描述：" class="headerlink" title="Nginx服务启动失败问题描述："></a>Nginx服务启动失败问题描述：</h4><p>MacOS系统升级导致brew发行包Nginx服务Service无法启动或启动失败，提示隐私或权限问题，系统限制root用户运行。</p><h4 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h4><p>此脚本用于解决MacOS升级新版后，基于Homebrew发行的Nginx包守护服务无法启动运行问题。<br>此问题一般由MacOS更新的权限隐私策略与nginx守护服务权限冲突导致服务无法启动。该脚本通过直接操作nginx服务进程实现服务的快捷管理，增加常用进程基础检查操作，封装快捷操作脚本。</p><p><a href="https://github.com/ljq">ljq@GitHub</a></p><p>Homebrew安装nginx:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install nginx</span><br></pre></td></tr></table></figure><p><a href="https://github.com/ljq/jackliu-usual-shell/blob/master/macos/macos_nginx_brew_service.sh">macos_nginx_brew_service.sh</a></p><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/env bash</span><br><span class="line"># Author: Jack Liu</span><br><span class="line"># Date Time: 2023-04-07 20:06</span><br><span class="line"># Site: https://github.com/ljq</span><br><span class="line"># Blog: https://www.defense.ink</span><br><span class="line"># Email: ljqlab@163.com</span><br><span class="line"># Description: 🍎 The nginx distribution provided by hombrew daemon service shortcut script.</span><br><span class="line"></span><br><span class="line"># help info</span><br><span class="line">USEAGE=&quot;[usage]: [-s | s | status] [start | restart | reload | stop] [-h | -help | --help] [-v | -V | --version]&quot;</span><br><span class="line">HELP_INFO=$(cat &lt;&lt;EOF</span><br><span class="line">[help information]</span><br><span class="line"></span><br><span class="line">Description: 🍎 </span><br><span class="line">    This script is used to resolve the problem that the Homebrew-based Nginx package </span><br><span class="line">    daemon service cannot be started after the new version of MacOS is updated. This </span><br><span class="line">    problem is usually caused by the conflict between the permission privacy policy </span><br><span class="line">    updated by MacOS and the permission of the nginx daemon service. This script </span><br><span class="line">    manages the service by directly manipulating the nginx service process.</span><br><span class="line"></span><br><span class="line">Command usage:</span><br><span class="line"></span><br><span class="line">    -v|-V|version: Show current nginx version information.</span><br><span class="line">    </span><br><span class="line">    -h|-help|--help: Show help info.</span><br><span class="line">    </span><br><span class="line">    -s|s|status: Nginx process status.</span><br><span class="line">    </span><br><span class="line">    start|restart|reload|stop: Service operation.</span><br><span class="line"></span><br><span class="line">EOF</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"># set variables</span><br><span class="line">sh_file=$0</span><br><span class="line">argv1=$1</span><br><span class="line">nginx_conf_file=$(brew --prefix)/etc/nginx/nginx.conf</span><br><span class="line">nginx_bin=$(brew --prefix nginx)/bin/nginx</span><br><span class="line"></span><br><span class="line"># main</span><br><span class="line"></span><br><span class="line"># description</span><br><span class="line">if [ &quot;$argv1&quot; = &quot;&quot; ]; then</span><br><span class="line">echo -e &quot;[brew&#x27;s nginx service shortcut script]\n&quot;</span><br><span class="line">fi</span><br><span class="line"># initialization check</span><br><span class="line">if [ ! -x &quot;$(command -v brew)&quot; ]; then</span><br><span class="line">echo -e &quot;[WARNING] Homebrew is not installed.&quot;</span><br><span class="line">exit</span><br><span class="line">fi</span><br><span class="line">if [ ! -f &quot;$nginx_bin&quot; ]; then</span><br><span class="line">echo -e &quot;[WARNING] The version of nignx provided by homebrew is not installed.&quot;</span><br><span class="line">exit</span><br><span class="line">fi</span><br><span class="line">if [ ! -f &quot;$nginx_conf_file&quot; ]; then</span><br><span class="line">        echo -e &quot;[WARNING] The nignx.conf file provided by homebrew is not exist.&quot;</span><br><span class="line">        exit</span><br><span class="line">fi</span><br><span class="line"># nginx config check</span><br><span class="line">chk_status=$($&#123;nginx_bin&#125; -t 2&gt;&amp;1)</span><br><span class="line">if [[ $chk_status =~ &quot;syntax is ok&quot; ]] &amp;&amp; [[ $chk_status =~ &quot;test is successful&quot; ]]; then</span><br><span class="line">#echo -e &quot;[INFO] The nginx.conf syntax is ok.\n&quot;</span><br><span class="line">echo &quot;&quot;</span><br><span class="line">else</span><br><span class="line">echo -e &quot;[ERROR] The nginx.conf syntax is incorrect.&quot;</span><br><span class="line">exit</span><br><span class="line">fi</span><br><span class="line"></span><br><span class="line"># exec</span><br><span class="line">case &quot;$argv1&quot; in</span><br><span class="line">&quot;-v&quot;|&quot;-version&quot;|&quot;--version&quot;|&quot;-V&quot;)</span><br><span class="line">  $&#123;nginx_bin&#125; -V</span><br><span class="line">  ;;</span><br><span class="line">&quot;-s&quot;|&quot;s&quot;|&quot;status&quot;)</span><br><span class="line">  serv_process=$(ps -ef | grep nginx | grep -v &quot;grep\|$&#123;sh_file&#125;&quot;)</span><br><span class="line">  if [ &quot;$serv_process&quot; = &quot;&quot; ]; then</span><br><span class="line">echo -e &quot;[NOTICE] Nginx service status is stoped.\n&quot;</span><br><span class="line">  else</span><br><span class="line">  echo -e &quot;[NOTICE] Nginx service status is running.\n&quot;</span><br><span class="line">  fi</span><br><span class="line">  ;;</span><br><span class="line">&quot;start&quot;)</span><br><span class="line">  serv_process=$(ps -ef | grep nginx | grep -v &quot;grep\|$&#123;sh_file&#125;&quot;)</span><br><span class="line">  if [ &quot;$serv_process&quot; = &quot;&quot; ]; then</span><br><span class="line">    echo -e &quot;[NOTICE] Nginx service is starting ...\n&quot;</span><br><span class="line">    $&#123;nginx_bin&#125; -c $nginx_conf_file</span><br><span class="line">  else</span><br><span class="line">  echo -e &quot;[WARNING] Nginx service is already running. Do not repeat operation.\n&quot;</span><br><span class="line">  fi</span><br><span class="line">  ;;</span><br><span class="line">&quot;restart&quot;)</span><br><span class="line">  echo -e &quot;[NOTICE] Nginx service is restarting ...\n&quot;</span><br><span class="line">  $&#123;nginx_bin&#125; -s stop</span><br><span class="line">  $&#123;nginx_bin&#125; -c $nginx_conf_file</span><br><span class="line">  ;;</span><br><span class="line">&quot;reload&quot;)</span><br><span class="line">  echo -e &quot;[NOTICE] Nginx service is reloading ...\n&quot;</span><br><span class="line">  $&#123;nginx_bin&#125; -s reload</span><br><span class="line">  ;;</span><br><span class="line">&quot;stop&quot;)</span><br><span class="line">  $&#123;nginx_bin&#125; -s stop</span><br><span class="line">  echo -e &quot;[NOTICE] Nginx service has stoped.\n&quot;</span><br><span class="line">  ;;</span><br><span class="line">&quot;-t&quot;)</span><br><span class="line">  $&#123;nginx_bin&#125; -t</span><br><span class="line">  ;;</span><br><span class="line">&quot;-h&quot;|&quot;-help&quot;|&quot;--help&quot;)</span><br><span class="line">  echo -e &quot;$&#123;HELP_INFO&#125;\n&quot; </span><br><span class="line">  ;;</span><br><span class="line">*)</span><br><span class="line">  echo -e &quot;[WARNING] Parameter is invalid or missing. Please run help command: $&#123;sh_file&#125; -h\n&quot;</span><br><span class="line">  ;;</span><br><span class="line">esac</span><br><span class="line"></span><br><span class="line">exit</span><br></pre></td></tr></table></figure><h4 id="脚本使用案例"><a href="#脚本使用案例" class="headerlink" title="脚本使用案例"></a>脚本使用案例</h4><h6 id="脚本增加可执行权限："><a href="#脚本增加可执行权限：" class="headerlink" title="脚本增加可执行权限："></a>脚本增加可执行权限：</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x macos_nginx_brew_service.sh</span><br></pre></td></tr></table></figure><h6 id="查看帮助："><a href="#查看帮助：" class="headerlink" title="查看帮助："></a>查看帮助：</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./macos_nginx_brew_service.sh -h</span><br></pre></td></tr></table></figure><h6 id="常用操作"><a href="#常用操作" class="headerlink" title="常用操作"></a>常用操作</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"># 启动</span><br><span class="line">./macos_nginx_brew_service.sh start</span><br><span class="line"># 重启</span><br><span class="line">./macos_nginx_brew_service.sh restart</span><br><span class="line"># 状态</span><br><span class="line">./macos_nginx_brew_service.sh status</span><br><span class="line"># 重载</span><br><span class="line">./macos_nginx_brew_service.sh reload</span><br><span class="line"># 停止</span><br><span class="line">./macos_nginx_brew_service.sh stop</span><br><span class="line"># nginx 版本</span><br><span class="line">./macos_nginx_brew_service.sh -V</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><h6 id="参数说明"><a href="#参数说明" class="headerlink" title="参数说明:"></a>参数说明:</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">-v|-V|version: Show current nginx version information.</span><br><span class="line"></span><br><span class="line">-h|-help|--help: Show help info.</span><br><span class="line"></span><br><span class="line">-s|s|status: Nginx process status.</span><br><span class="line"></span><br><span class="line">start|restart|reload|stop: Service operation.</span><br></pre></td></tr></table></figure><p><a href="https://github.com/ljq/jackliu-usual-shell/blob/master/macos/macos_nginx_brew_service.sh">macos_nginx_brew_service.sh</a></p><p><a href="https://github.com/ljq">ljq@GitHub</a></p>]]></content>
+    <content type="html"><![CDATA[<!-- toc --><h4 id="macOS系统升级导致brew发行包Nginx服务Service无法启动或启动失败问题解决（MacOS-Ventura-13-3）"><a href="#macOS系统升级导致brew发行包Nginx服务Service无法启动或启动失败问题解决（MacOS-Ventura-13-3）" class="headerlink" title="macOS系统升级导致brew发行包Nginx服务Service无法启动或启动失败问题解决（MacOS Ventura 13.3）"></a>macOS系统升级导致brew发行包Nginx服务Service无法启动或启动失败问题解决（MacOS Ventura 13.3）</h4><h4 id="系统版本：MacOS-Ventura-13-3"><a href="#系统版本：MacOS-Ventura-13-3" class="headerlink" title="系统版本：MacOS Ventura 13.3"></a>系统版本：MacOS Ventura 13.3</h4><h4 id="Nginx服务启动失败问题描述："><a href="#Nginx服务启动失败问题描述：" class="headerlink" title="Nginx服务启动失败问题描述："></a>Nginx服务启动失败问题描述：</h4><p>MacOS系统升级导致brew发行包Nginx服务Service无法启动或启动失败，提示隐私或权限问题，系统限制root用户运行。</p><h4 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h4><p>此脚本用于解决MacOS升级新版后，基于Homebrew发行的Nginx包守护服务无法启动运行问题。<br>此问题一般由MacOS更新的权限隐私策略与nginx守护服务权限冲突导致服务无法启动。该脚本通过直接操作nginx服务进程实现服务的快捷管理，增加常用进程基础检查操作，封装快捷操作脚本。</p><p><a href="https://github.com/ljq">ljq@GitHub</a></p><p>Homebrew安装nginx:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install nginx</span><br></pre></td></tr></table></figure><p><a href="https://github.com/ljq/jackliu-usual-shell/blob/master/macos/macos_nginx_brew_service.sh">macos_nginx_brew_service.sh</a></p><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/env bash</span><br><span class="line"># Author: Jack Liu</span><br><span class="line"># Date Time: 2023-04-07 20:06</span><br><span class="line"># Site: https://github.com/ljq</span><br><span class="line"># Blog: https://www.wdft.com</span><br><span class="line"># Email: ljqlab@163.com</span><br><span class="line"># Description: 🍎 The nginx distribution provided by hombrew daemon service shortcut script.</span><br><span class="line"></span><br><span class="line"># help info</span><br><span class="line">USEAGE=&quot;[usage]: [-s | s | status] [start | restart | reload | stop] [-h | -help | --help] [-v | -V | --version]&quot;</span><br><span class="line">HELP_INFO=$(cat &lt;&lt;EOF</span><br><span class="line">[help information]</span><br><span class="line"></span><br><span class="line">Description: 🍎 </span><br><span class="line">    This script is used to resolve the problem that the Homebrew-based Nginx package </span><br><span class="line">    daemon service cannot be started after the new version of MacOS is updated. This </span><br><span class="line">    problem is usually caused by the conflict between the permission privacy policy </span><br><span class="line">    updated by MacOS and the permission of the nginx daemon service. This script </span><br><span class="line">    manages the service by directly manipulating the nginx service process.</span><br><span class="line"></span><br><span class="line">Command usage:</span><br><span class="line"></span><br><span class="line">    -v|-V|version: Show current nginx version information.</span><br><span class="line">    </span><br><span class="line">    -h|-help|--help: Show help info.</span><br><span class="line">    </span><br><span class="line">    -s|s|status: Nginx process status.</span><br><span class="line">    </span><br><span class="line">    start|restart|reload|stop: Service operation.</span><br><span class="line"></span><br><span class="line">EOF</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"># set variables</span><br><span class="line">sh_file=$0</span><br><span class="line">argv1=$1</span><br><span class="line">nginx_conf_file=$(brew --prefix)/etc/nginx/nginx.conf</span><br><span class="line">nginx_bin=$(brew --prefix nginx)/bin/nginx</span><br><span class="line"></span><br><span class="line"># main</span><br><span class="line"></span><br><span class="line"># description</span><br><span class="line">if [ &quot;$argv1&quot; = &quot;&quot; ]; then</span><br><span class="line">echo -e &quot;[brew&#x27;s nginx service shortcut script]\n&quot;</span><br><span class="line">fi</span><br><span class="line"># initialization check</span><br><span class="line">if [ ! -x &quot;$(command -v brew)&quot; ]; then</span><br><span class="line">echo -e &quot;[WARNING] Homebrew is not installed.&quot;</span><br><span class="line">exit</span><br><span class="line">fi</span><br><span class="line">if [ ! -f &quot;$nginx_bin&quot; ]; then</span><br><span class="line">echo -e &quot;[WARNING] The version of nignx provided by homebrew is not installed.&quot;</span><br><span class="line">exit</span><br><span class="line">fi</span><br><span class="line">if [ ! -f &quot;$nginx_conf_file&quot; ]; then</span><br><span class="line">        echo -e &quot;[WARNING] The nignx.conf file provided by homebrew is not exist.&quot;</span><br><span class="line">        exit</span><br><span class="line">fi</span><br><span class="line"># nginx config check</span><br><span class="line">chk_status=$($&#123;nginx_bin&#125; -t 2&gt;&amp;1)</span><br><span class="line">if [[ $chk_status =~ &quot;syntax is ok&quot; ]] &amp;&amp; [[ $chk_status =~ &quot;test is successful&quot; ]]; then</span><br><span class="line">#echo -e &quot;[INFO] The nginx.conf syntax is ok.\n&quot;</span><br><span class="line">echo &quot;&quot;</span><br><span class="line">else</span><br><span class="line">echo -e &quot;[ERROR] The nginx.conf syntax is incorrect.&quot;</span><br><span class="line">exit</span><br><span class="line">fi</span><br><span class="line"></span><br><span class="line"># exec</span><br><span class="line">case &quot;$argv1&quot; in</span><br><span class="line">&quot;-v&quot;|&quot;-version&quot;|&quot;--version&quot;|&quot;-V&quot;)</span><br><span class="line">  $&#123;nginx_bin&#125; -V</span><br><span class="line">  ;;</span><br><span class="line">&quot;-s&quot;|&quot;s&quot;|&quot;status&quot;)</span><br><span class="line">  serv_process=$(ps -ef | grep nginx | grep -v &quot;grep\|$&#123;sh_file&#125;&quot;)</span><br><span class="line">  if [ &quot;$serv_process&quot; = &quot;&quot; ]; then</span><br><span class="line">echo -e &quot;[NOTICE] Nginx service status is stoped.\n&quot;</span><br><span class="line">  else</span><br><span class="line">  echo -e &quot;[NOTICE] Nginx service status is running.\n&quot;</span><br><span class="line">  fi</span><br><span class="line">  ;;</span><br><span class="line">&quot;start&quot;)</span><br><span class="line">  serv_process=$(ps -ef | grep nginx | grep -v &quot;grep\|$&#123;sh_file&#125;&quot;)</span><br><span class="line">  if [ &quot;$serv_process&quot; = &quot;&quot; ]; then</span><br><span class="line">    echo -e &quot;[NOTICE] Nginx service is starting ...\n&quot;</span><br><span class="line">    $&#123;nginx_bin&#125; -c $nginx_conf_file</span><br><span class="line">  else</span><br><span class="line">  echo -e &quot;[WARNING] Nginx service is already running. Do not repeat operation.\n&quot;</span><br><span class="line">  fi</span><br><span class="line">  ;;</span><br><span class="line">&quot;restart&quot;)</span><br><span class="line">  echo -e &quot;[NOTICE] Nginx service is restarting ...\n&quot;</span><br><span class="line">  $&#123;nginx_bin&#125; -s stop</span><br><span class="line">  $&#123;nginx_bin&#125; -c $nginx_conf_file</span><br><span class="line">  ;;</span><br><span class="line">&quot;reload&quot;)</span><br><span class="line">  echo -e &quot;[NOTICE] Nginx service is reloading ...\n&quot;</span><br><span class="line">  $&#123;nginx_bin&#125; -s reload</span><br><span class="line">  ;;</span><br><span class="line">&quot;stop&quot;)</span><br><span class="line">  $&#123;nginx_bin&#125; -s stop</span><br><span class="line">  echo -e &quot;[NOTICE] Nginx service has stoped.\n&quot;</span><br><span class="line">  ;;</span><br><span class="line">&quot;-t&quot;)</span><br><span class="line">  $&#123;nginx_bin&#125; -t</span><br><span class="line">  ;;</span><br><span class="line">&quot;-h&quot;|&quot;-help&quot;|&quot;--help&quot;)</span><br><span class="line">  echo -e &quot;$&#123;HELP_INFO&#125;\n&quot; </span><br><span class="line">  ;;</span><br><span class="line">*)</span><br><span class="line">  echo -e &quot;[WARNING] Parameter is invalid or missing. Please run help command: $&#123;sh_file&#125; -h\n&quot;</span><br><span class="line">  ;;</span><br><span class="line">esac</span><br><span class="line"></span><br><span class="line">exit</span><br></pre></td></tr></table></figure><h4 id="脚本使用案例"><a href="#脚本使用案例" class="headerlink" title="脚本使用案例"></a>脚本使用案例</h4><h6 id="脚本增加可执行权限："><a href="#脚本增加可执行权限：" class="headerlink" title="脚本增加可执行权限："></a>脚本增加可执行权限：</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x macos_nginx_brew_service.sh</span><br></pre></td></tr></table></figure><h6 id="查看帮助："><a href="#查看帮助：" class="headerlink" title="查看帮助："></a>查看帮助：</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./macos_nginx_brew_service.sh -h</span><br></pre></td></tr></table></figure><h6 id="常用操作"><a href="#常用操作" class="headerlink" title="常用操作"></a>常用操作</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"># 启动</span><br><span class="line">./macos_nginx_brew_service.sh start</span><br><span class="line"># 重启</span><br><span class="line">./macos_nginx_brew_service.sh restart</span><br><span class="line"># 状态</span><br><span class="line">./macos_nginx_brew_service.sh status</span><br><span class="line"># 重载</span><br><span class="line">./macos_nginx_brew_service.sh reload</span><br><span class="line"># 停止</span><br><span class="line">./macos_nginx_brew_service.sh stop</span><br><span class="line"># nginx 版本</span><br><span class="line">./macos_nginx_brew_service.sh -V</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><h6 id="参数说明"><a href="#参数说明" class="headerlink" title="参数说明:"></a>参数说明:</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">-v|-V|version: Show current nginx version information.</span><br><span class="line"></span><br><span class="line">-h|-help|--help: Show help info.</span><br><span class="line"></span><br><span class="line">-s|s|status: Nginx process status.</span><br><span class="line"></span><br><span class="line">start|restart|reload|stop: Service operation.</span><br></pre></td></tr></table></figure><p><a href="https://github.com/ljq/jackliu-usual-shell/blob/master/macos/macos_nginx_brew_service.sh">macos_nginx_brew_service.sh</a></p><p><a href="https://github.com/ljq">ljq@GitHub</a></p>]]></content>
     
     
     <summary type="html">&lt;!-- toc --&gt;
@@ -393,21 +393,21 @@
     
     
     
-    <category term="macos" scheme="https://www.defense.ink/categories/macos/"/>
+    <category term="macos" scheme="https://www.wdft.com/categories/macos/"/>
     
     
-    <category term="homebrew" scheme="https://www.defense.ink/tags/homebrew/"/>
+    <category term="homebrew" scheme="https://www.wdft.com/tags/homebrew/"/>
     
-    <category term="macos" scheme="https://www.defense.ink/tags/macos/"/>
+    <category term="macos" scheme="https://www.wdft.com/tags/macos/"/>
     
-    <category term="nginx" scheme="https://www.defense.ink/tags/nginx/"/>
+    <category term="nginx" scheme="https://www.wdft.com/tags/nginx/"/>
     
   </entry>
   
   <entry>
     <title>MacOS English terminal Chinese garbled characters solution （MacOS英文环境终端中文内容乱码问题解决）</title>
-    <link href="https://www.defense.ink/bb19ba9f.html"/>
-    <id>https://www.defense.ink/bb19ba9f.html</id>
+    <link href="https://www.wdft.com/bb19ba9f.html"/>
+    <id>https://www.wdft.com/bb19ba9f.html</id>
     <published>2023-02-02T12:02:03.000Z</published>
     <updated>2024-02-17T03:35:16.588Z</updated>
     
@@ -423,19 +423,19 @@
     
     
     
-    <category term="macos" scheme="https://www.defense.ink/categories/macos/"/>
+    <category term="macos" scheme="https://www.wdft.com/categories/macos/"/>
     
     
-    <category term="homebrew" scheme="https://www.defense.ink/tags/homebrew/"/>
+    <category term="homebrew" scheme="https://www.wdft.com/tags/homebrew/"/>
     
-    <category term="macos" scheme="https://www.defense.ink/tags/macos/"/>
+    <category term="macos" scheme="https://www.wdft.com/tags/macos/"/>
     
   </entry>
   
   <entry>
     <title>Eight Fallacies of Distributed Systems （分布式八大谬论）</title>
-    <link href="https://www.defense.ink/67fb071a.html"/>
-    <id>https://www.defense.ink/67fb071a.html</id>
+    <link href="https://www.wdft.com/67fb071a.html"/>
+    <id>https://www.wdft.com/67fb071a.html</id>
     <published>2022-08-09T11:02:00.000Z</published>
     <updated>2024-02-17T03:35:16.582Z</updated>
     
@@ -451,19 +451,19 @@
     
     
     
-    <category term="distributed" scheme="https://www.defense.ink/categories/distributed/"/>
+    <category term="distributed" scheme="https://www.wdft.com/categories/distributed/"/>
     
     
-    <category term="Cloud-Distributed" scheme="https://www.defense.ink/tags/Cloud-Distributed/"/>
+    <category term="Cloud-Distributed" scheme="https://www.wdft.com/tags/Cloud-Distributed/"/>
     
-    <category term="Distributed-Systems" scheme="https://www.defense.ink/tags/Distributed-Systems/"/>
+    <category term="Distributed-Systems" scheme="https://www.wdft.com/tags/Distributed-Systems/"/>
     
   </entry>
   
   <entry>
     <title>GitHub以及其他GIT平台中启用GPG2认证基本使用流程(MacOS)，增强身份识别和安全性</title>
-    <link href="https://www.defense.ink/eadfec01.html"/>
-    <id>https://www.defense.ink/eadfec01.html</id>
+    <link href="https://www.wdft.com/eadfec01.html"/>
+    <id>https://www.wdft.com/eadfec01.html</id>
     <published>2022-06-19T11:02:02.000Z</published>
     <updated>2024-02-17T03:35:16.585Z</updated>
     
@@ -479,21 +479,21 @@
     
     
     
-    <category term="GIT" scheme="https://www.defense.ink/categories/GIT/"/>
+    <category term="GIT" scheme="https://www.wdft.com/categories/GIT/"/>
     
     
-    <category term="GIT" scheme="https://www.defense.ink/tags/GIT/"/>
+    <category term="GIT" scheme="https://www.wdft.com/tags/GIT/"/>
     
-    <category term="GPG" scheme="https://www.defense.ink/tags/GPG/"/>
+    <category term="GPG" scheme="https://www.wdft.com/tags/GPG/"/>
     
-    <category term="GPG2" scheme="https://www.defense.ink/tags/GPG2/"/>
+    <category term="GPG2" scheme="https://www.wdft.com/tags/GPG2/"/>
     
   </entry>
   
   <entry>
     <title>Hexo cdn.jsdelivr.net A low cost solution for CDN invalidation（Hexo cdn.jsdelivr.net 等部分CDN引用无效的一种低成本解决方案）</title>
-    <link href="https://www.defense.ink/bafde551.html"/>
-    <id>https://www.defense.ink/bafde551.html</id>
+    <link href="https://www.wdft.com/bafde551.html"/>
+    <id>https://www.wdft.com/bafde551.html</id>
     <published>2022-06-05T21:02:02.000Z</published>
     <updated>2024-02-17T03:35:16.588Z</updated>
     
@@ -508,23 +508,23 @@
     
     
     
-    <category term="macos" scheme="https://www.defense.ink/categories/macos/"/>
+    <category term="macos" scheme="https://www.wdft.com/categories/macos/"/>
     
     
-    <category term="hexo" scheme="https://www.defense.ink/tags/hexo/"/>
+    <category term="hexo" scheme="https://www.wdft.com/tags/hexo/"/>
     
-    <category term="CDN" scheme="https://www.defense.ink/tags/CDN/"/>
+    <category term="CDN" scheme="https://www.wdft.com/tags/CDN/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript map function grammatical sugar trap</title>
-    <link href="https://www.defense.ink/ad4a4750.html"/>
-    <id>https://www.defense.ink/ad4a4750.html</id>
+    <link href="https://www.wdft.com/ad4a4750.html"/>
+    <id>https://www.wdft.com/ad4a4750.html</id>
     <published>2022-06-05T13:02:00.000Z</published>
     <updated>2024-02-17T03:35:16.587Z</updated>
     
-    <content type="html"><![CDATA[<!-- toc --><p>Don’t pursue techniques that seem too fancy, or they may backfire<br>(不要追求看似过于花哨的技巧，否则可能适得其反)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">let m = [10, 10, 10].map(parseInt);</span><br><span class="line">document.write(m);</span><br></pre></td></tr></table></figure><span id="more"></span><iframe id="cp_embed_KKQYEaL" src="//codepen.io/jql/embed/KKQYEaL?height=result[520]]&theme-id=dark&slug-hash=KKQYEaL&default-tab=[css," scrolling="no" frameborder="no" height="result[520]]" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe>]]></content>
+    <content type="html"><![CDATA[<!-- toc --><p>Don’t pursue techniques that seem too fancy, or they may backfire<br>(不要追求看似过于花哨的技巧，否则可能适得其反)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">let m = [10, 10, 10].map(parseInt);</span><br><span class="line">document.write(m);</span><br></pre></td></tr></table></figure><span id="more"></span><iframe id="cp_embed_KKQYEaL" src="//codepen.io/jql/embed/KKQYEaL?height=result[520]]&theme-id=dark&slug-hash=KKQYEaL&default-tab=[css," scrolling="no" frameborder="no" height="result[520]]" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe>]]></content>
     
     
     <summary type="html">&lt;!-- toc --&gt;
@@ -534,19 +534,19 @@
     
     
     
-    <category term="JavaScript" scheme="https://www.defense.ink/categories/JavaScript/"/>
+    <category term="JavaScript" scheme="https://www.wdft.com/categories/JavaScript/"/>
     
     
-    <category term="JavaScript" scheme="https://www.defense.ink/tags/JavaScript/"/>
+    <category term="JavaScript" scheme="https://www.wdft.com/tags/JavaScript/"/>
     
-    <category term="JS" scheme="https://www.defense.ink/tags/JS/"/>
+    <category term="JS" scheme="https://www.wdft.com/tags/JS/"/>
     
   </entry>
   
   <entry>
     <title>HomeBrew Mirror to accelerate Settings （HomeBrew 镜像加速解决源下载缓慢卡顿问题和超大软件包等待问题）</title>
-    <link href="https://www.defense.ink/2dc6af80.html"/>
-    <id>https://www.defense.ink/2dc6af80.html</id>
+    <link href="https://www.wdft.com/2dc6af80.html"/>
+    <id>https://www.wdft.com/2dc6af80.html</id>
     <published>2022-05-20T22:02:02.000Z</published>
     <updated>2024-02-17T03:35:16.588Z</updated>
     
@@ -560,19 +560,19 @@
     
     
     
-    <category term="macos" scheme="https://www.defense.ink/categories/macos/"/>
+    <category term="macos" scheme="https://www.wdft.com/categories/macos/"/>
     
     
-    <category term="homebrew" scheme="https://www.defense.ink/tags/homebrew/"/>
+    <category term="homebrew" scheme="https://www.wdft.com/tags/homebrew/"/>
     
-    <category term="macos" scheme="https://www.defense.ink/tags/macos/"/>
+    <category term="macos" scheme="https://www.wdft.com/tags/macos/"/>
     
   </entry>
   
   <entry>
     <title>clang ANSI lib 标准差异汇总速查</title>
-    <link href="https://www.defense.ink/f4ab9929.html"/>
-    <id>https://www.defense.ink/f4ab9929.html</id>
+    <link href="https://www.wdft.com/f4ab9929.html"/>
+    <id>https://www.wdft.com/f4ab9929.html</id>
     <published>2022-05-05T00:03:02.000Z</published>
     <updated>2024-02-17T03:35:16.582Z</updated>
     
@@ -618,19 +618,19 @@
     
     
     
-    <category term="clang" scheme="https://www.defense.ink/categories/clang/"/>
+    <category term="clang" scheme="https://www.wdft.com/categories/clang/"/>
     
     
-    <category term="clang" scheme="https://www.defense.ink/tags/clang/"/>
+    <category term="clang" scheme="https://www.wdft.com/tags/clang/"/>
     
-    <category term="ansi-lib" scheme="https://www.defense.ink/tags/ansi-lib/"/>
+    <category term="ansi-lib" scheme="https://www.wdft.com/tags/ansi-lib/"/>
     
   </entry>
   
   <entry>
     <title>clang io format</title>
-    <link href="https://www.defense.ink/5fc261d7.html"/>
-    <id>https://www.defense.ink/5fc261d7.html</id>
+    <link href="https://www.wdft.com/5fc261d7.html"/>
+    <id>https://www.wdft.com/5fc261d7.html</id>
     <published>2022-05-05T00:02:06.000Z</published>
     <updated>2024-02-17T03:35:16.581Z</updated>
     
@@ -644,25 +644,25 @@
 &lt;ul&gt;
 &lt;li&gt;scanf()：和 printf() 类似，scanf() 可以输入多种类型的数据。&lt;/li&gt;
 &lt;li&gt;getchar()、getche()、getch()：这三个函数都用于输入单个字符。&lt;/li&gt;
-&lt;li&gt;gets()：获取一行数据，并作为字符串处理。&lt;/li&gt;&lt;/ul&gt;</summary>
+&lt;li&gt;gets()：获取一行数据，并作为字符串处理。</summary>
     
     
     
-    <category term="clang" scheme="https://www.defense.ink/categories/clang/"/>
+    <category term="clang" scheme="https://www.wdft.com/categories/clang/"/>
     
     
-    <category term="clang" scheme="https://www.defense.ink/tags/clang/"/>
+    <category term="clang" scheme="https://www.wdft.com/tags/clang/"/>
     
-    <category term="io" scheme="https://www.defense.ink/tags/io/"/>
+    <category term="io" scheme="https://www.wdft.com/tags/io/"/>
     
-    <category term="format" scheme="https://www.defense.ink/tags/format/"/>
+    <category term="format" scheme="https://www.wdft.com/tags/format/"/>
     
   </entry>
   
   <entry>
     <title>clang macro</title>
-    <link href="https://www.defense.ink/c603c446.html"/>
-    <id>https://www.defense.ink/c603c446.html</id>
+    <link href="https://www.wdft.com/c603c446.html"/>
+    <id>https://www.wdft.com/c603c446.html</id>
     <published>2022-05-05T00:02:02.000Z</published>
     <updated>2024-02-17T03:35:16.582Z</updated>
     
@@ -677,12 +677,12 @@
     
     
     
-    <category term="clang" scheme="https://www.defense.ink/categories/clang/"/>
+    <category term="clang" scheme="https://www.wdft.com/categories/clang/"/>
     
     
-    <category term="clang" scheme="https://www.defense.ink/tags/clang/"/>
+    <category term="clang" scheme="https://www.wdft.com/tags/clang/"/>
     
-    <category term="macro" scheme="https://www.defense.ink/tags/macro/"/>
+    <category term="macro" scheme="https://www.wdft.com/tags/macro/"/>
     
   </entry>
   
