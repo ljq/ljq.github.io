@@ -6,7 +6,7 @@
   <link href="https://www.wdft.com/atom.xml" rel="self"/>
   
   <link href="https://www.wdft.com/"/>
-  <updated>2025-02-14T09:56:31.264Z</updated>
+  <updated>2025-02-18T08:53:42.697Z</updated>
   <id>https://www.wdft.com/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>对比主流云原生KubeSphere、KubeVela、Rancher、Sealos和Rainbond五者之间的区别</title>
+    <link href="https://www.wdft.com/4b8b1c9c.html"/>
+    <id>https://www.wdft.com/4b8b1c9c.html</id>
+    <published>2025-02-18T11:02:00.000Z</published>
+    <updated>2025-02-18T08:53:42.697Z</updated>
+    
+    <content type="html"><![CDATA[<!-- toc --><h4 id="KubeSphere、KubeVela、Rancher、Sealos和Rainbond五者之间的区别："><a href="#KubeSphere、KubeVela、Rancher、Sealos和Rainbond五者之间的区别：" class="headerlink" title="KubeSphere、KubeVela、Rancher、Sealos和Rainbond五者之间的区别："></a>KubeSphere、KubeVela、Rancher、Sealos和Rainbond五者之间的区别：</h4><table><thead><tr><th>项目</th><th>KubeSphere</th><th>KubeVela</th><th>Rancher</th><th>Sealos</th><th>Rainbond</th></tr></thead><tbody><tr><td><strong>基本定位</strong></td><td>面向云原生应用的分布式操作系统</td><td>现代化应用交付与管理平台</td><td>开源的企业级多集群Kubernetes管理平台</td><td>以Kubernetes为内核的云操作系统发行版</td><td>国产开源的无服务器容器云平台</td></tr><tr><td><strong>内核&#x2F;基础</strong></td><td>以Kubernetes为内核</td><td>基于OAM规范和Kubernetes</td><td>以Kubernetes作为其容器编排引擎</td><td>Kubernetes</td><td>Kubernetes</td></tr><tr><td><strong>主要特点</strong></td><td>全栈自动化IT运营；简化的DevOps工作流；多租户支持；丰富的企业级功能</td><td>应用部署即代码；支持多集群认证和授权；开箱即用的平台扩展；面向混合云环境</td><td>强大的多集群管理能力；一键部署应用；多种编排调度工具；支持多种基础架构</td><td>无需安装Kubernetes集群即可使用；提供秒级创建高可用数据库的服务；自动伸缩功能节省成本</td><td>以应用为中心；深度集成Kubernetes；支持多云环境下的统一运维管理</td></tr><tr><td><strong>用户界面</strong></td><td>提供开发人员友好的向导式Web UI</td><td>-</td><td>提供直观的Web管理界面</td><td>内置终端支持命令行操作，同时提供管理界面</td><td>提供友好的用户界面</td></tr><tr><td><strong>集成性</strong></td><td>即插即用的架构，允许第三方应用无缝集成</td><td>可与任何CI流水线或GitOps工具无缝集成</td><td>集成开源监控、日志、Git CI</td><td>与其他云原生工具和服务有良好的兼容性</td><td>模块化拼装，加速应用构建</td></tr><tr><td><strong>生态系统</strong></td><td>整合了大量云原生相关组件</td><td>拥有快速增长的插件市场</td><td>-</td><td>与主流云服务提供商有良好的合作关系</td><td>提供了丰富的应用场景和解决方案</td></tr><tr><td><strong>目标用户</strong></td><td>面向企业和开发人员，尤其是需要简化DevOps流程的场景</td><td>面向软件开发团队，尤其是需要在混合云环境中交付应用的团队</td><td>面向需要在生产环境中运行容器和Kubernetes的组织</td><td>面向需要高效、灵活、安全的云服务解决方案的企业</td><td>面向需要云原生应用全生命周期管理的企业</td></tr><tr><td><strong>部署与扩展</strong></td><td>支持多云与多集群管理；提供KubeKey安装程序</td><td>支持多集群&#x2F;混合环境持续交付策略</td><td>支持在混合云和本地数据中心集中部署与管理Kubernetes集群</td><td>快速部署各种分布式应用，如Nginx、数据库等</td><td>支持多种计算资源和存储资源的接入和管理</td></tr><tr><td><strong>学习成本</strong></td><td>对刚上手的人来说较为友好，提供了较多的整合功能</td><td>需要了解OAM规范和Kubernetes概念</td><td>学习成本较高，但提供了一站式的解决方案</td><td>相对较低，提供友好的用户操作体验</td><td>提供了丰富的文档资源和社区支持，降低学习门槛</td></tr><tr><td><strong>成熟度与稳定性</strong></td><td>经过多年发展，已成为国际化的容器开源项目</td><td>-</td><td>相较于KubeSphere更为成熟稳定</td><td>逐步发展，为企业提供稳定可靠的云服务解决方案</td><td>经过多个版本的迭代，提供了稳定可靠的云原生应用管理平台</td></tr></tbody></table><p>这个表格简要概述了KubeSphere、KubeVela、Rancher、Sealos和Rainbond五者之间的主要区别。每个项目都有其独特的特点和优势，适用于不同的场景和用户群体。在选择时，建议根据实际需求、技术栈和团队经验来权衡各个选项。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;!-- toc --&gt;
+
+
+&lt;h4 id=&quot;KubeSphere、KubeVela、Rancher、Sealos和Rainbond五者之间的区别：&quot;&gt;&lt;a href=&quot;#KubeSphere、KubeVela、Rancher、Sealos和Rainbond五者之间的区别：&quot; c</summary>
+      
+    
+    
+    
+    <category term="cloud-native" scheme="https://www.wdft.com/categories/cloud-native/"/>
+    
+    
+    <category term="Cloud-Native" scheme="https://www.wdft.com/tags/Cloud-Native/"/>
+    
+    <category term="K8S" scheme="https://www.wdft.com/tags/K8S/"/>
+    
+    <category term="kebernetes" scheme="https://www.wdft.com/tags/kebernetes/"/>
+    
+    <category term="Cloud-Native-Framework" scheme="https://www.wdft.com/tags/Cloud-Native-Framework/"/>
+    
+  </entry>
+  
+  <entry>
     <title>macOS Ghostty Terminal Ddefault binding keyboard shortcut key list（Ghostty.org Ghostty 终端默认快捷键列表）</title>
     <link href="https://www.wdft.com/d89a2229.html"/>
     <id>https://www.wdft.com/d89a2229.html</id>
     <published>2025-01-13T14:02:02.000Z</published>
-    <updated>2025-02-14T09:56:31.264Z</updated>
+    <updated>2025-02-14T09:56:48.150Z</updated>
     
     <content type="html"><![CDATA[<!-- toc --><h3 id="macOS-Ghostty-终端默认快捷键列表"><a href="#macOS-Ghostty-终端默认快捷键列表" class="headerlink" title="macOS Ghostty 终端默认快捷键列表"></a>macOS Ghostty 终端默认快捷键列表</h3><ul><li>基本常用快捷键<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">command + t:                新建标签页</span><br><span class="line">command + n:                新建窗口</span><br><span class="line">command + w:                关闭当前终端界面（标签页或分割窗口）</span><br><span class="line">command + shift + w:        关闭当前窗口</span><br><span class="line">command + shift + enter:    切换分割窗口缩放</span><br><span class="line">command + alt + shift + w:  关闭所有窗口</span><br><span class="line">command + page_up:          向上滚动页面</span><br><span class="line">command + page_down:        向下滚动页面</span><br><span class="line">command + home:             滚动到顶部</span><br><span class="line">command + end:              滚动到底部</span><br><span class="line">command + q:                退出 Ghostty</span><br><span class="line">command + enter:            切换全屏模式</span><br><span class="line">command + ctrl + f:         切换全屏模式</span><br><span class="line">command + c:                复制到剪贴板</span><br><span class="line">command + v:                从剪贴板粘贴</span><br><span class="line">command + a:                全选</span><br><span class="line">command + k:                清空屏幕</span><br><span class="line">command + comma:            打开配置文件</span><br><span class="line">command + alt + i:          切换检查器</span><br></pre></td></tr></table></figure></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">command + shift + [:        切换到上一个标签页</span><br><span class="line">command + shift + ]:        切换到下一个标签页</span><br><span class="line">ctrl + tab:                 切换到下一个标签页</span><br><span class="line">ctrl + shift + tab:         切换到上一个标签页</span><br></pre></td></tr></table></figure><span id="more"></span><ul><li><p>分屏操作快捷键</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">command + d:                在右侧新建分割窗口</span><br><span class="line">command + shift + d:        在下方新建分割窗口</span><br><span class="line">command + alt + right:      切换到右侧分割窗口</span><br><span class="line">command + alt + left:       切换到左侧分割窗口</span><br><span class="line">command + alt + up:         切换到上方分割窗口</span><br><span class="line">command + alt + down:       切换到下方分割窗口</span><br><span class="line">command + [:                切换到上一个分割窗口</span><br><span class="line">command + ]:                切换到下一个分割窗口</span><br><span class="line">command + ctrl + left:      向左调整分割窗口大小</span><br><span class="line">command + ctrl + right:     向右调整分割窗口大小</span><br><span class="line">command + ctrl + up:        向上调整分割窗口大小</span><br><span class="line">command + ctrl + down:      向下调整分割窗口大小</span><br><span class="line">command + ctrl + equal:     使分割窗口大小相等</span><br></pre></td></tr></table></figure></li><li><p>光标和选择快捷键</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">command + up:               跳到上一个提示符位置</span><br><span class="line">command + down:             跳到下一个提示符位置</span><br><span class="line">command + shift +           跳到上一个提示符位置</span><br><span class="line">command + shift + down:     跳到下一个提示符位置</span><br><span class="line">shift + up:                 向上调整选择范围</span><br><span class="line">shift + down:               向下调整选择范围</span><br><span class="line">shift + left:               向左调整选择范围</span><br><span class="line">shift + right:              向右调整选择范围</span><br><span class="line">shift + page_up:            向上调整选择范围（翻页）</span><br><span class="line">shift + page_down:          向下调整选择范围（翻页）</span><br><span class="line">shift + home:               调整选择范围到行首</span><br><span class="line">shift + end:                调整选择范围到行尾</span><br></pre></td></tr></table></figure></li><li><p>光标操作快捷键</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">command + left:             通常是移动到行首</span><br><span class="line">command + right:            通常是移动到行尾</span><br><span class="line">alt + left:                 通常是向左移动一个单词</span><br><span class="line">alt + right:                通常是向右移动一个单词</span><br></pre></td></tr></table></figure></li><li><p>终端标签快捷键</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">command + [Number]:         跳转到标签页Number</span><br></pre></td></tr></table></figure></li></ul>]]></content>
     
@@ -656,33 +689,6 @@
     <category term="io" scheme="https://www.wdft.com/tags/io/"/>
     
     <category term="format" scheme="https://www.wdft.com/tags/format/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>clang macro</title>
-    <link href="https://www.wdft.com/c603c446.html"/>
-    <id>https://www.wdft.com/c603c446.html</id>
-    <published>2022-05-05T00:02:02.000Z</published>
-    <updated>2024-02-17T03:35:16.582Z</updated>
-    
-    <content type="html"><![CDATA[<!-- toc --><h3 id="C-Macro-宏"><a href="#C-Macro-宏" class="headerlink" title="C Macro 宏"></a>C Macro 宏</h3><h4 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h4><p>#define 宏定义命令，C语言预处理命令。标识符来表示一个字符串，代码运行中会将表示符进行全部替换成指定的字符串。</p><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#define N 1</span><br><span class="line">int main()&#123;</span><br><span class="line">    int sum = 1 + N;</span><br><span class="line">    printf(&quot;Output: %d\n&quot;, sum);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line">// output: 2</span><br></pre></td></tr></table></figure><h4 id="宏定义和定义全局变量的区别和注意事项"><a href="#宏定义和定义全局变量的区别和注意事项" class="headerlink" title="宏定义和定义全局变量的区别和注意事项"></a>宏定义和定义全局变量的区别和注意事项</h4><ul><li>作用时间不同：宏定义在编译期间即会使用并替换，而全局变量要到运行时才可以。 </li><li>本质类型不同：<ul><li>宏定义的只是一段字符，在编译的时候被替换到引用的位置。<br>在运行中是没有宏定义的概念的。而变量在运行时要为其分配内存。 </li><li>宏定义不可以被赋值，即其值一旦定义不可修改，而变量在运行过程中可以被修改。</li></ul></li><li>宏定义只有在定义所在文件，或引用所在文件的其它文件中使用。<br>全局变量可以在工程所有文件中使用，只需在使用前加一个声明就可以，即宏定义不支持extern模式。</li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;!-- toc --&gt;
-
-
-
-&lt;h3 id=&quot;C-Macro-宏&quot;&gt;&lt;a href=&quot;#C-Macro-宏&quot; class=&quot;headerlink&quot; title=&quot;C Macro 宏&quot;&gt;&lt;/a&gt;C Macro 宏&lt;/h3&gt;&lt;h4 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h4&gt;&lt;p&gt;#define 宏定义命令，C语言预处理命令。标识符来表示一个字符串，代码运行中会将表示符进行全部替换成指定的字符串。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="clang" scheme="https://www.wdft.com/categories/clang/"/>
-    
-    
-    <category term="clang" scheme="https://www.wdft.com/tags/clang/"/>
-    
-    <category term="macro" scheme="https://www.wdft.com/tags/macro/"/>
     
   </entry>
   
