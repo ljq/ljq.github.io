@@ -49,6 +49,51 @@
   </entry>
   
   <entry>
+    <title>Efficiency optimization practice of oh-my-zsh (omz) configuration parameters（macOS下oh-my-zsh omz配置参数效率优化实践，对开发人员用户高频使用zsh场景建议）</title>
+    <link href="https://www.wdft.com/fa8418d.html"/>
+    <id>https://www.wdft.com/fa8418d.html</id>
+    <published>2025-10-20T14:13:27.000Z</published>
+    <updated>2025-10-22T07:34:01.753Z</updated>
+    
+    <content type="html"><![CDATA[<!-- toc --><p>⚠️以下 <strong>oh-my-zsh</strong> 终端配置优化（仅针对macOS环境开发人员用户高频使用zsh终端配置建议，小白用户不建议尝试！）</p><h6 id="oh-my-zsh版本信息："><a href="#oh-my-zsh版本信息：" class="headerlink" title="oh-my-zsh版本信息："></a>oh-my-zsh版本信息：</h6><ul><li>OMZ版本：master (f1934d2)</li><li>更新时间：2025-10-20</li><li>配置默认: <code>~/.zshrc</code></li></ul><h4 id="目录大纲："><a href="#目录大纲：" class="headerlink" title="目录大纲："></a>目录大纲：</h4><ul><li>oh-my-zsh 终端配置基础优化（仅建议，可避免配置文件和数据散落用户目录）</li><li>ZSH 历史记录设置（omz:高性能模式）<span id="more"></span></li></ul><h4 id="oh-my-zsh-终端配置基础优化（仅建议，可避免配置文件和数据散落用户目录）"><a href="#oh-my-zsh-终端配置基础优化（仅建议，可避免配置文件和数据散落用户目录）" class="headerlink" title="oh-my-zsh 终端配置基础优化（仅建议，可避免配置文件和数据散落用户目录）"></a>oh-my-zsh 终端配置基础优化（仅建议，可避免配置文件和数据散落用户目录）</h4><p>⚠️ 用户目录按实际用户名配置（例如:&#x2F;Users&#x2F;ljq）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># zsh</span><br><span class="line">export ZDOTDIR=&quot;/Users/ljq/.zsh-custom&quot;</span><br><span class="line"># zsh sessions custom path</span><br><span class="line">export ZSH_SESSION_DIR=&quot;/Users/ljq/.zsh-custom/.zsh_sessions&quot;</span><br><span class="line"># z plugin custom path</span><br><span class="line">export _Z_DATA=&quot;/Users/ljq/.zsh-custom/.zdata&quot;</span><br><span class="line"># .zsh_history set path</span><br><span class="line">export HISTFILE=&quot;/Users/ljq/.zsh-custom/.zsh_history&quot;</span><br><span class="line"></span><br><span class="line"># Path to your oh-my-zsh installation.</span><br><span class="line">export ZSH=&quot;$HOME/.oh-my-zsh&quot;</span><br></pre></td></tr></table></figure><h4 id="ZSH-历史记录设置（omz-高性能模式）"><a href="#ZSH-历史记录设置（omz-高性能模式）" class="headerlink" title="ZSH 历史记录设置（omz:高性能模式）"></a>ZSH 历史记录设置（omz:高性能模式）</h4><p><strong>~&#x2F;.zshrc</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"># ========== ZSH 历史记录设置（omz:高性能模式） ==========</span><br><span class="line"></span><br><span class="line"># .zsh_history: macOS(omz内存保留默认值50000)</span><br><span class="line">HISTSIZE=50000      # 内存中保留最多 50000 条（当前会话）</span><br><span class="line">SAVEHIST=50000      # 退出时仅将最近 50000 条写入文件（自动丢弃旧的）</span><br><span class="line"></span><br><span class="line"># .zsh_history:历史行为优化</span><br><span class="line">setopt HIST_IGNORE_DUPS        # 忽略连续重复命令</span><br><span class="line">setopt HIST_SAVE_NO_DUPS       # 保存时全局去重</span><br><span class="line">setopt HIST_EXPIRE_DUPS_FIRST  # 达到上限时优先丢弃重复项（推荐）</span><br><span class="line"></span><br><span class="line"># .zsh_history:仅忽略“无参数”的简单命令（注意：没有 *，所以 &#x27;ls -l&#x27; 仍会被记录）</span><br><span class="line">setopt EXTENDED_GLOB           # 启用扩展 glob 语法(解析格式)</span><br><span class="line">HISTORY_IGNORE=&quot;(&amp;\</span><br><span class="line">|ls|ll|la|l|pwd|df|du|du\ -sh\ .|tree\</span><br><span class="line">|ps|ps\ aux|top|htop|jobs|bg|fg|uptime|free|free\ -h\</span><br><span class="line">|git|git\ status|git\ add\ .|git\ push*|git\ pull|git\ branch\</span><br><span class="line">|docker\ ps|docker\ images|docker\ volume\ ls|docker\ network\ ls|docker-compose\ ps\</span><br><span class="line">|npm\ ls|yarn\ list|npm\ outdated|yarn\ outdated\</span><br><span class="line">|python\ --version|pip\ list|pip\ freeze|which\ python\</span><br><span class="line">|clear|history|man*|which*)&quot;</span><br></pre></td></tr></table></figure><h4 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h4><p><code>HISTORY_IGNORE</code>一般开发场景下，建议忽略一些简单的系统命令，避免反复记录和影响磁盘IO和无意义的文件记录，保留有效命令加快检索响应，实际上是一种平衡选择机制的权衡，建议根据实际使用场景进行选择。</p>]]></content>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+
+&lt;p&gt;⚠️以下 &lt;strong&gt;oh-my-zsh&lt;/strong&gt; 终端配置优化（仅针对macOS环境开发人员用户高频使用zsh终端配置建议，小白用户不建议尝试！）&lt;/p&gt;
+&lt;h6 id=&quot;oh-my-zsh版本信息：&quot;&gt;&lt;a href=&quot;#oh-my-zsh版本信息：&quot; class=&quot;headerlink&quot; title=&quot;oh-my-zsh版本信息：&quot;&gt;&lt;/a&gt;oh-my-zsh版本信息：&lt;/h6&gt;&lt;ul&gt;
+&lt;li&gt;OMZ版本：master (f1934d2)&lt;/li&gt;
+&lt;li&gt;更新时间：2025-10-20&lt;/li&gt;
+&lt;li&gt;配置默认: &lt;code&gt;~/.zshrc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;目录大纲：&quot;&gt;&lt;a href=&quot;#目录大纲：&quot; class=&quot;headerlink&quot; title=&quot;目录大纲：&quot;&gt;&lt;/a&gt;目录大纲：&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;oh-my-zsh 终端配置基础优化（仅建议，可避免配置文件和数据散落用户目录）&lt;/li&gt;
+&lt;li&gt;ZSH 历史记录设置（omz:高性能模式）</summary>
+    
+    
+    
+    <category term="macos" scheme="https://www.wdft.com/categories/macos/"/>
+    
+    <category term="oh-my-zsh" scheme="https://www.wdft.com/categories/macos/oh-my-zsh/"/>
+    
+    <category term="zsh" scheme="https://www.wdft.com/categories/macos/oh-my-zsh/zsh/"/>
+    
+    <category term="zshrc" scheme="https://www.wdft.com/categories/macos/oh-my-zsh/zsh/zshrc/"/>
+    
+    <category term="Optimization" scheme="https://www.wdft.com/categories/macos/oh-my-zsh/zsh/zshrc/Optimization/"/>
+    
+    
+    <category term="oh-my-zsh" scheme="https://www.wdft.com/tags/oh-my-zsh/"/>
+    
+    <category term="omz" scheme="https://www.wdft.com/tags/omz/"/>
+    
+    <category term="zsh" scheme="https://www.wdft.com/tags/zsh/"/>
+    
+    <category term="macOS" scheme="https://www.wdft.com/tags/macOS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>从零开始：使用三台服务器搭建最简 Kubernetes 集群并集成 Gitea + Harbor 示例</title>
     <link href="https://www.wdft.com/7c4c358b.html"/>
     <id>https://www.wdft.com/7c4c358b.html</id>
@@ -69,11 +114,11 @@
     
     <category term="Cloud-Native" scheme="https://www.wdft.com/tags/Cloud-Native/"/>
     
-    <category term="K8S-Build" scheme="https://www.wdft.com/tags/K8S-Build/"/>
-    
     <category term="Cloud-Distributed" scheme="https://www.wdft.com/tags/Cloud-Distributed/"/>
     
     <category term="Distributed-Systems" scheme="https://www.wdft.com/tags/Distributed-Systems/"/>
+    
+    <category term="K8S-Build" scheme="https://www.wdft.com/tags/K8S-Build/"/>
     
   </entry>
   
@@ -631,32 +676,6 @@
     <category term="JavaScript" scheme="https://www.wdft.com/tags/JavaScript/"/>
     
     <category term="JS" scheme="https://www.wdft.com/tags/JS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HomeBrew Mirror to accelerate Settings （HomeBrew 镜像加速解决源下载缓慢卡顿问题和超大软件包等待问题）</title>
-    <link href="https://www.wdft.com/2dc6af80.html"/>
-    <id>https://www.wdft.com/2dc6af80.html</id>
-    <published>2022-05-20T22:02:02.000Z</published>
-    <updated>2025-10-05T15:05:46.066Z</updated>
-    
-    <content type="html"><![CDATA[<!-- toc --><h4 id="HomeBrew-环境配置以及卡顿问题处理"><a href="#HomeBrew-环境配置以及卡顿问题处理" class="headerlink" title="HomeBrew 环境配置以及卡顿问题处理"></a>HomeBrew 环境配置以及卡顿问题处理</h4><h5 id="关键环境变量配置"><a href="#关键环境变量配置" class="headerlink" title="关键环境变量配置"></a>关键环境变量配置</h5><p>推荐使用清华源镜像替换：<br><a href="https://mirrors.ustc.edu.cn/">https://mirrors.ustc.edu.cn/</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 文件列表(对应以下镜像仓库地址)</span><br><span class="line">homebrew Folder</span><br><span class="line">-------------------------------</span><br><span class="line">homebrew-bottles</span><br><span class="line">homebrew-cask-versions.git</span><br><span class="line">homebrew-cask.git</span><br><span class="line">homebrew-core.git</span><br></pre></td></tr></table></figure><span id="more"></span><p>环境变量替换配置项：<br><code>.bash_profile</code> 或 <code>.zshrc</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">export HOMEBREW_BREW_GIT_REMOTE=&quot;https://mirrors.ustc.edu.cn/brew.git&quot;</span><br><span class="line"></span><br><span class="line">export HOMEBREW_CORE_GIT_REMOTE=&quot;https://mirrors.ustc.edu.cn/homebrew-core.git&quot;</span><br><span class="line"></span><br><span class="line">export HOMEBREW_BOTTLE_DOMAIN=&quot;https://mirrors.ustc.edu.cn/homebrew-bottles/bottles&quot;</span><br><span class="line"></span><br><span class="line"># close brew auto update （是否关闭自动更新，开发环境推荐设置为true，手动更新）</span><br><span class="line">export HOMEBREW_NO_AUTO_UPDATE=true</span><br></pre></td></tr></table></figure><p>软件镜像地址替换：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">替换核心软件仓库</span><br><span class="line">cd &quot;$(brew --repo)/Library/Taps/homebrew/homebrew-core&quot;</span><br><span class="line">git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git</span><br><span class="line"></span><br><span class="line">替换 cask 软件仓库</span><br><span class="line">cd &quot;$(brew --repo)&quot;/Library/Taps/caskroom/homebrew-cask</span><br><span class="line">git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git</span><br><span class="line"></span><br><span class="line">替换 cask-versions 软件仓库</span><br><span class="line">cd &quot;$(brew --repo)&quot;/Library/Taps/homebrew/homebrew-cask-versions</span><br><span class="line">git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask-versions.git</span><br></pre></td></tr></table></figure><h6 id="针对部分官方软件包的下载处理-需要开发经验"><a href="#针对部分官方软件包的下载处理-需要开发经验" class="headerlink" title="针对部分官方软件包的下载处理(需要开发经验)"></a>针对部分官方软件包的下载处理(需要开发经验)</h6><h6 id="关键目录"><a href="#关键目录" class="headerlink" title="关键目录"></a>关键目录</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># HomeBrew 安装源缓存目录：</span><br><span class="line">～/Library/Caches/Homebrew</span><br><span class="line"></span><br><span class="line"># 软件配置目录：</span><br><span class="line">/usr/local/etc</span><br></pre></td></tr></table></figure><p><strong>针对较大低速软件包的处理</strong></p><p>软件安装原理：<br>homebrew-tap源配置的<code>.rb</code>软件源有两个关键字段配置：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">url &quot;&quot;</span><br><span class="line">sha256 &quot;&quot;</span><br></pre></td></tr></table></figure><p><code>brew install [软件名]</code><br>命令通过sha256校验值在Cache生成对应的类似临时文件(不同软件包有所不同)<code>[sha256]--[软件]-[版本].[文件格式].incomplete</code>，部分软件会在.&#x2F;downloads目录下载完成后文件变成类似<code>[sha256]--[软件名]-[版本].[文件格式]</code>，在上层目录生成软链,执行软件包解压或者转移到应用目录下。</p><p><strong>如果既想使用homebrew管理软件包同时又忍受不了软件长时间的低速下载</strong>，可使</p><p>以上可以通过下方式完成软件包的替换（建议有开发经验人员是用，否则缓存目录可能产生冗余文件）：<br>1.下载指定版本软件包（注意软件版本和对应的sha256值）；<br>2.执行<code>brew install [软件]</code>，记录下临时文件的sha256值和文件名以及版本好；<br>3.将已下载的软件包命名成[sha256]–[软件]-[版本].[文件格式]方式；<br>4.再次执行<code>brew install [软件]</code>，此时成功的话会提示软件已下载完成，直接执行安装操作（如果仍提示下载软件，检查sha256文件名是否符合对应版本的软件包值要求）。</p>]]></content>
-    
-    
-    <summary type="html">&lt;!-- toc --&gt;
-
-&lt;h4 id=&quot;HomeBrew-环境配置以及卡顿问题处理&quot;&gt;&lt;a href=&quot;#HomeBrew-环境配置以及卡顿问题处理&quot; class=&quot;headerlink&quot; title=&quot;HomeBrew 环境配置以及卡顿问题处理&quot;&gt;&lt;/a&gt;HomeBrew 环境配置以及卡顿问题处理&lt;/h4&gt;&lt;h5 id=&quot;关键环境变量配置&quot;&gt;&lt;a href=&quot;#关键环境变量配置&quot; class=&quot;headerlink&quot; title=&quot;关键环境变量配置&quot;&gt;&lt;/a&gt;关键环境变量配置&lt;/h5&gt;&lt;p&gt;推荐使用清华源镜像替换：&lt;br&gt;&lt;a href=&quot;https://mirrors.ustc.edu.cn/&quot;&gt;https://mirrors.ustc.edu.cn/&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# 文件列表(对应以下镜像仓库地址)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;homebrew Folder&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-------------------------------&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;homebrew-bottles&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;homebrew-cask-versions.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;homebrew-cask.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;homebrew-core.git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="macos" scheme="https://www.wdft.com/categories/macos/"/>
-    
-    
-    <category term="homebrew" scheme="https://www.wdft.com/tags/homebrew/"/>
-    
-    <category term="macos" scheme="https://www.wdft.com/tags/macos/"/>
     
   </entry>
   
