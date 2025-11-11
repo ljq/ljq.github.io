@@ -230,11 +230,11 @@
     <category term="distributed" scheme="https://www.wdft.com/categories/distributed/"/>
     
     
-    <category term="Cloud-Native" scheme="https://www.wdft.com/tags/Cloud-Native/"/>
-    
     <category term="Cloud-Distributed" scheme="https://www.wdft.com/tags/Cloud-Distributed/"/>
     
     <category term="Distributed-Systems" scheme="https://www.wdft.com/tags/Distributed-Systems/"/>
+    
+    <category term="Cloud-Native" scheme="https://www.wdft.com/tags/Cloud-Native/"/>
     
     <category term="K8S-Build" scheme="https://www.wdft.com/tags/K8S-Build/"/>
     
