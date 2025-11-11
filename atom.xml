@@ -6,7 +6,7 @@
   <link href="https://www.wdft.com/atom.xml" rel="self"/>
   
   <link href="https://www.wdft.com/"/>
-  <updated>2025-11-07T02:24:29.313Z</updated>
+  <updated>2025-11-11T02:34:45.925Z</updated>
   <id>https://www.wdft.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Peter Thiel&#39;s methodology for going from 0 to 1（彼得·蒂尔从 0 到 1 的方法论(by 演讲)）</title>
+    <link href="https://www.wdft.com/e111b800.html"/>
+    <id>https://www.wdft.com/e111b800.html</id>
+    <published>2025-11-11T14:02:00.000Z</published>
+    <updated>2025-11-11T02:34:45.925Z</updated>
+    
+    <content type="html"><![CDATA[<!-- toc --><h3 id="彼得·蒂尔从-0-到-1-的方法论-by-演讲-："><a href="#彼得·蒂尔从-0-到-1-的方法论-by-演讲-：" class="headerlink" title="彼得·蒂尔从 0 到 1 的方法论(by 演讲)："></a>彼得·蒂尔从 0 到 1 的方法论(by 演讲)：</h3><ol><li>每一次真正重要的创新都是独一无二的<br>下一个扎克伯格不会再做社交网站，下一个拉里·佩奇不会再做搜索。<br>模仿不会带来突破，从模仿中学不到创新的本质。</li></ol><span id="more"></span><ol start="2"><li><p>商业不是科学<br>科学依赖可重复性，而真正伟大的企业无法重复。<br>企业的本质是独特性，从 0 到 1，而不是从 1 到 N。</p></li><li><p>创业的核心问题是：你发现了别人没有看到的真相吗？<br>你能否说出一个你相信但别人不认同的观点。<br>伟大的机会往往隐藏在这种被忽视的“秘密”里。</p></li><li><p>目标应是垄断，而不是竞争<br>竞争会消耗利润，让你陷入同质化，越努力越累。<br>垄断才会带来长期、稳定、高额收益。<br>成功公司一定独特，失败公司一定相似。</p></li></ol><p>5, 竞争会缩窄视野<br>当你沉迷于击败对手时，会忽视更重要的东西。<br>许多人留在光鲜但空洞的路径上，只因为他们的身份依附于竞争结果。</p><ol start="6"><li><p>社会文化倾向于嘲笑原创、奖励模仿<br>真正有原创想法的人往往被质疑和劝阻。<br>大众会本能地追随趋势而不是探索未知。</p></li><li><p>世界上仍有大量未被探索的前沿机会<br>不仅在 IT，也在生物科技、航空航天、物理世界的技术中。<br>真正的突破不是扩张现有模式（全球化），而是创造新的纵向技术增长。</p></li><li><p>全球化是复制成功（从 1 到 N），技术创新是创造新的东西（从 0 到 1）<br>过去几十年全球化快于技术进步。<br>要让发达国家重新进入增长周期，必须重启创新。</p></li></ol><p>你要做的不是加入竞争，而是逃离竞争。<br>要寻找别人忽略的真问题，做独一无二的事。<br>真正的价值来自从 0 到 1 的创造。</p>]]></content>
+    
+    
+    <summary type="html">&lt;!-- toc --&gt;
+
+
+
+&lt;h3 id=&quot;彼得·蒂尔从-0-到-1-的方法论-by-演讲-：&quot;&gt;&lt;a href=&quot;#彼得·蒂尔从-0-到-1-的方法论-by-演讲-：&quot; class=&quot;headerlink&quot; title=&quot;彼得·蒂尔从 0 到 1 的方法论(by 演讲)：&quot;&gt;&lt;/a&gt;彼得·蒂尔从 0 到 1 的方法论(by 演讲)：&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;每一次真正重要的创新都是独一无二的&lt;br&gt;下一个扎克伯格不会再做社交网站，下一个拉里·佩奇不会再做搜索。&lt;br&gt;模仿不会带来突破，从模仿中学不到创新的本质。&lt;/li&gt;
+&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="clang" scheme="https://www.wdft.com/categories/clang/"/>
+    
+    
+    <category term="clang" scheme="https://www.wdft.com/tags/clang/"/>
+    
+    <category term="type" scheme="https://www.wdft.com/tags/type/"/>
+    
+  </entry>
   
   <entry>
     <title>Golang CHANGELOG History(截至2025.11.07的完整变更日志Changelog)</title>
@@ -203,11 +232,11 @@
     
     <category term="Cloud-Native" scheme="https://www.wdft.com/tags/Cloud-Native/"/>
     
-    <category term="K8S-Build" scheme="https://www.wdft.com/tags/K8S-Build/"/>
-    
     <category term="Cloud-Distributed" scheme="https://www.wdft.com/tags/Cloud-Distributed/"/>
     
     <category term="Distributed-Systems" scheme="https://www.wdft.com/tags/Distributed-Systems/"/>
+    
+    <category term="K8S-Build" scheme="https://www.wdft.com/tags/K8S-Build/"/>
     
   </entry>
   
@@ -654,34 +683,6 @@
     <category term="homebrew" scheme="https://www.wdft.com/tags/homebrew/"/>
     
     <category term="macos" scheme="https://www.wdft.com/tags/macos/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Eight Fallacies of Distributed Systems （分布式八大谬论）</title>
-    <link href="https://www.wdft.com/67fb071a.html"/>
-    <id>https://www.wdft.com/67fb071a.html</id>
-    <published>2022-08-09T11:02:00.000Z</published>
-    <updated>2025-10-05T15:05:46.070Z</updated>
-    
-    <content type="html"><![CDATA[<!-- toc --><h4 id="Eight-Fallacies-of-Distributed-Systems"><a href="#Eight-Fallacies-of-Distributed-Systems" class="headerlink" title="Eight Fallacies of Distributed Systems"></a>Eight Fallacies of Distributed Systems</h4><h5 id="The-network-is-reliable"><a href="#The-network-is-reliable" class="headerlink" title="The network is reliable"></a>The network is reliable</h5><p>网络可靠。 </p><h5 id="Latency-is-zero"><a href="#Latency-is-zero" class="headerlink" title="Latency is zero"></a>Latency is zero</h5><p>延迟为零。 </p><h5 id="Bandwidth-is-infinite"><a href="#Bandwidth-is-infinite" class="headerlink" title="Bandwidth is infinite"></a>Bandwidth is infinite</h5><p>带宽是无限的。</p><h5 id="The-network-is-secure"><a href="#The-network-is-secure" class="headerlink" title="The network is secure"></a>The network is secure</h5><p>网络是安全的。</p><h5 id="Topology-doesn’t-change"><a href="#Topology-doesn’t-change" class="headerlink" title="Topology doesn’t change"></a>Topology doesn’t change</h5><p>拓扑不会改变。 </p><h5 id="There-is-one-administrator"><a href="#There-is-one-administrator" class="headerlink" title="There is one administrator"></a>There is one administrator</h5><p>只有一个管理员。</p><h5 id="Transport-cost-is-zero"><a href="#Transport-cost-is-zero" class="headerlink" title="Transport cost is zero"></a>Transport cost is zero</h5><p>运输成本为零。</p><h5 id="The-network-is-homogeneous"><a href="#The-network-is-homogeneous" class="headerlink" title="The network is homogeneous"></a>The network is homogeneous</h5><p>网络是同质的。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;!-- toc --&gt;
-
-&lt;h4 id=&quot;Eight-Fallacies-of-Distributed-Systems&quot;&gt;&lt;a href=&quot;#Eight-Fallacies-of-Distributed-Systems&quot; class=&quot;headerlink&quot; title=&quot;Ei</summary>
-      
-    
-    
-    
-    <category term="distributed" scheme="https://www.wdft.com/categories/distributed/"/>
-    
-    
-    <category term="Cloud-Distributed" scheme="https://www.wdft.com/tags/Cloud-Distributed/"/>
-    
-    <category term="Distributed-Systems" scheme="https://www.wdft.com/tags/Distributed-Systems/"/>
     
   </entry>
   
