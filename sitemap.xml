@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wdft.com/ab528300.html</loc>
+    
+    <lastmod>2025-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wdft.com/edd96fdf.html</loc>
     
     <lastmod>2025-12-08</lastmod>
@@ -742,7 +751,7 @@
 
   <url>
     <loc>https://www.wdft.com/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -750,742 +759,749 @@
   
   <url>
     <loc>https://www.wdft.com/tags/AI/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Agent/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/stable-diffusion-webui/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/clang/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/type/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Cloud-Native/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/K8S/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/kebernetes/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Cloud-Native-Framework/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Cloud-Distributed/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Distributed-Systems/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/K8S-Build/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/mysql8-x/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/mysql8-0/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/mysql/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/utf8mb4/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/utf8mb4-0900-ai-ci/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/utf8mb4-general-ci/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/GIT/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/GPG/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/GPG2/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/GUI/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/macro/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/io/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/format/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/nanochat/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/nanochat-zh-CN/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/ansi-lib/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/JavaScript/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/JS/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Go/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/go-pprof/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/changelog/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/History/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Go-chain-operation/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/GO%E6%96%B9%E6%B3%95%E5%80%BC/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/func/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Go-Summary-notes/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/goroutine/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Go-init/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/interface/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/JSON/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Go-new-make-struct/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/pointer/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Go-Polymorphism/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Go-map/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Go-null-judge/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Go-Printf/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/reflect%E5%8F%8D%E5%B0%84/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/slice%E5%88%87%E7%89%87%E6%9C%AC%E8%B4%A8/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Go-string/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/struct/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/switch/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Go-Struct-Method-Receiver/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/package-time/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/type%E5%85%B3%E9%94%AE%E8%AF%8D%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/lua/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/php/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/laravel/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/laravel-artisan/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/cli/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/linux/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/centos7/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/systemd-service/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/chattr/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/OpenSSH/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%BD%93%E7%B3%BB/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/firewalld/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/services/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/debian/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/neofetch/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/rsync/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/banner/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/motd/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/rocky-linux/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/rocky-linux-tools/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/rocky/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Ghostty/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/terminal/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/homebrew/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/macOS/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/oh-my-zsh/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/omz/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/zsh/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/hexo/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/CDN/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/nginx/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Google/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/VIM/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/VIM-Author/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/%E4%BA%BA%E7%94%9F/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/%E8%BD%AC%E8%BD%BD/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/travel/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/daily/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Movie/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Note-The-Legend-of-1900/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/postgresql/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/postgressql-engine/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/GGUF/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Text2SQL/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/Python/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/deepseek/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/tags/GRPO/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/tags/K3S-Build/</loc>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -1494,231 +1510,231 @@
   
   <url>
     <loc>https://www.wdft.com/categories/AI/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/Algorithm/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/clang/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/AI/Agent/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/cloud-native/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/distributed/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/AI/painting/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/Database/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/GIT/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/JavaScript/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/Go/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/AI/painting/Controlnet/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/AI/painting/Controlnet/Drawing/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/lua/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/php/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/linux/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/macOS/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/reprinted-articles/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/history-of-programing/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/daily/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/linux/centos/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/linux/openssl/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/linux/firewalld/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/linux/debian/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/macOS/oh-my-zsh/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/history-of-programing/daily/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/daily/note/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/macOS/oh-my-zsh/zsh/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/macOS/oh-my-zsh/zsh/zshrc/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/macOS/oh-my-zsh/zsh/zshrc/Optimization/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/AI/Agent/Text2SQL/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/Python/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wdft.com/categories/Algorithm/AI/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
