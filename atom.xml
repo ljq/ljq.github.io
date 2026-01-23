@@ -77,9 +77,9 @@
     <category term="nosql" scheme="https://www.wdft.com/categories/nosql/"/>
     
     
-    <category term="nosql" scheme="https://www.wdft.com/tags/nosql/"/>
-    
     <category term="MongoDB" scheme="https://www.wdft.com/tags/MongoDB/"/>
+    
+    <category term="nosql" scheme="https://www.wdft.com/tags/nosql/"/>
     
   </entry>
   
@@ -239,9 +239,9 @@
     
     <category term="AI" scheme="https://www.wdft.com/tags/AI/"/>
     
-    <category term="GRPO" scheme="https://www.wdft.com/tags/GRPO/"/>
-    
     <category term="Deepseek" scheme="https://www.wdft.com/tags/Deepseek/"/>
+    
+    <category term="GRPO" scheme="https://www.wdft.com/tags/GRPO/"/>
     
   </entry>
   
@@ -293,9 +293,9 @@
     <category term="Database" scheme="https://www.wdft.com/categories/Database/"/>
     
     
-    <category term="postgresql" scheme="https://www.wdft.com/tags/postgresql/"/>
-    
     <category term="mysql8.x" scheme="https://www.wdft.com/tags/mysql8-x/"/>
+    
+    <category term="postgresql" scheme="https://www.wdft.com/tags/postgresql/"/>
     
   </entry>
   
