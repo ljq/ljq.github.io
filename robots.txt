@@ -1,12 +1,24 @@
 User-agent: *
+Disallow: /img
 Disallow: /img/
+Disallow: /js
 Disallow: /js/
+Disallow: /css
 Disallow: /css/
 Disallow: /content.json
+# 可选：保留 favicon 规则（效果有限）
 Disallow: /favicon.ico
+# 补充大小写与现代格式（按需调整）
 Disallow: /*.jpg$
 Disallow: /*.jpeg$
 Disallow: /*.gif$
 Disallow: /*.png$
 Disallow: /*.bmp$
+Disallow: /*.JPG$
+Disallow: /*.JPEG$
+Disallow: /*.GIF$
+Disallow: /*.PNG$
+Disallow: /*.BMP$
+Disallow: /*.webp$
+Disallow: /*.svg$
 Sitemap: https://www.wdft.com/sitemap.xml
