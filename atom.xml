@@ -45,15 +45,15 @@
     
     <category term="Linux" scheme="https://www.wdft.com/tags/Linux/"/>
     
-    <category term="安全加固" scheme="https://www.wdft.com/tags/%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA/"/>
-    
-    <category term="security" scheme="https://www.wdft.com/tags/security/"/>
-    
     <category term="CentOS" scheme="https://www.wdft.com/tags/CentOS/"/>
     
     <category term="Rocky-linux" scheme="https://www.wdft.com/tags/Rocky-linux/"/>
     
     <category term="Firewalld" scheme="https://www.wdft.com/tags/Firewalld/"/>
+    
+    <category term="安全加固" scheme="https://www.wdft.com/tags/%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA/"/>
+    
+    <category term="security" scheme="https://www.wdft.com/tags/security/"/>
     
   </entry>
   
@@ -86,15 +86,15 @@
     
     <category term="Linux" scheme="https://www.wdft.com/tags/Linux/"/>
     
+    <category term="安全加固" scheme="https://www.wdft.com/tags/%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA/"/>
+    
+    <category term="security" scheme="https://www.wdft.com/tags/security/"/>
+    
     <category term="Debian" scheme="https://www.wdft.com/tags/Debian/"/>
     
     <category term="Ubuntu" scheme="https://www.wdft.com/tags/Ubuntu/"/>
     
     <category term="UFW" scheme="https://www.wdft.com/tags/UFW/"/>
-    
-    <category term="安全加固" scheme="https://www.wdft.com/tags/%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA/"/>
-    
-    <category term="security" scheme="https://www.wdft.com/tags/security/"/>
     
   </entry>
   
@@ -125,9 +125,9 @@
     
     <category term="LLM" scheme="https://www.wdft.com/tags/LLM/"/>
     
-    <category term="Skill" scheme="https://www.wdft.com/tags/Skill/"/>
-    
     <category term="Agent" scheme="https://www.wdft.com/tags/Agent/"/>
+    
+    <category term="Skill" scheme="https://www.wdft.com/tags/Skill/"/>
     
     <category term="Agent-Skill" scheme="https://www.wdft.com/tags/Agent-Skill/"/>
     
@@ -162,9 +162,9 @@
     
     <category term="LLM" scheme="https://www.wdft.com/tags/LLM/"/>
     
-    <category term="Skill" scheme="https://www.wdft.com/tags/Skill/"/>
-    
     <category term="Agent" scheme="https://www.wdft.com/tags/Agent/"/>
+    
+    <category term="Skill" scheme="https://www.wdft.com/tags/Skill/"/>
     
     <category term="Agent-Skill" scheme="https://www.wdft.com/tags/Agent-Skill/"/>
     
@@ -201,9 +201,9 @@
     
     <category term="LLM" scheme="https://www.wdft.com/tags/LLM/"/>
     
-    <category term="Skill" scheme="https://www.wdft.com/tags/Skill/"/>
-    
     <category term="Agent" scheme="https://www.wdft.com/tags/Agent/"/>
+    
+    <category term="Skill" scheme="https://www.wdft.com/tags/Skill/"/>
     
     <category term="Agent-Skill" scheme="https://www.wdft.com/tags/Agent-Skill/"/>
     
@@ -242,9 +242,9 @@
     
     <category term="Demo-AI" scheme="https://www.wdft.com/tags/Demo-AI/"/>
     
-    <category term="MCP" scheme="https://www.wdft.com/tags/MCP/"/>
-    
     <category term="LoRA" scheme="https://www.wdft.com/tags/LoRA/"/>
+    
+    <category term="MCP" scheme="https://www.wdft.com/tags/MCP/"/>
     
   </entry>
   
@@ -267,9 +267,9 @@
     <category term="php" scheme="https://www.wdft.com/categories/php/"/>
     
     
-    <category term="changelog" scheme="https://www.wdft.com/tags/changelog/"/>
-    
     <category term="php" scheme="https://www.wdft.com/tags/php/"/>
+    
+    <category term="changelog" scheme="https://www.wdft.com/tags/changelog/"/>
     
     <category term="history" scheme="https://www.wdft.com/tags/history/"/>
     
@@ -300,9 +300,9 @@
     
     <category term="Tutorial" scheme="https://www.wdft.com/tags/Tutorial/"/>
     
-    <category term="MongoDB" scheme="https://www.wdft.com/tags/MongoDB/"/>
-    
     <category term="nosql" scheme="https://www.wdft.com/tags/nosql/"/>
+    
+    <category term="MongoDB" scheme="https://www.wdft.com/tags/MongoDB/"/>
     
   </entry>
   
@@ -389,13 +389,13 @@
     <category term="postgres" scheme="https://www.wdft.com/categories/rdbms/postgres/"/>
     
     
-    <category term="postgresql" scheme="https://www.wdft.com/tags/postgresql/"/>
-    
-    <category term="postgresql-syntax" scheme="https://www.wdft.com/tags/postgresql-syntax/"/>
-    
     <category term="Tutorial" scheme="https://www.wdft.com/tags/Tutorial/"/>
     
     <category term="RDBMS" scheme="https://www.wdft.com/tags/RDBMS/"/>
+    
+    <category term="postgresql" scheme="https://www.wdft.com/tags/postgresql/"/>
+    
+    <category term="postgresql-syntax" scheme="https://www.wdft.com/tags/postgresql-syntax/"/>
     
   </entry>
   
@@ -538,7 +538,11 @@
     <category term="mysql" scheme="https://www.wdft.com/categories/rdbms/mysql/"/>
     
     
+    <category term="RDBMS" scheme="https://www.wdft.com/tags/RDBMS/"/>
+    
     <category term="mysql8.x" scheme="https://www.wdft.com/tags/mysql8-x/"/>
+    
+    <category term="innodb" scheme="https://www.wdft.com/tags/innodb/"/>
     
     <category term="mysql" scheme="https://www.wdft.com/tags/mysql/"/>
     
@@ -547,10 +551,6 @@
     <category term="utf8mb4_0900_ai_ci" scheme="https://www.wdft.com/tags/utf8mb4-0900-ai-ci/"/>
     
     <category term="utf8mb4_general_ci" scheme="https://www.wdft.com/tags/utf8mb4-general-ci/"/>
-    
-    <category term="RDBMS" scheme="https://www.wdft.com/tags/RDBMS/"/>
-    
-    <category term="innodb" scheme="https://www.wdft.com/tags/innodb/"/>
     
   </entry>
   
@@ -576,11 +576,11 @@
     <category term="postgres" scheme="https://www.wdft.com/categories/rdbms/postgres/"/>
     
     
+    <category term="RDBMS" scheme="https://www.wdft.com/tags/RDBMS/"/>
+    
     <category term="postgresql" scheme="https://www.wdft.com/tags/postgresql/"/>
     
     <category term="postgressql-engine" scheme="https://www.wdft.com/tags/postgressql-engine/"/>
-    
-    <category term="RDBMS" scheme="https://www.wdft.com/tags/RDBMS/"/>
     
   </entry>
   
@@ -605,11 +605,11 @@
     <category term="postgres" scheme="https://www.wdft.com/categories/rdbms/postgres/"/>
     
     
-    <category term="postgresql" scheme="https://www.wdft.com/tags/postgresql/"/>
+    <category term="RDBMS" scheme="https://www.wdft.com/tags/RDBMS/"/>
     
     <category term="mysql8.x" scheme="https://www.wdft.com/tags/mysql8-x/"/>
     
-    <category term="RDBMS" scheme="https://www.wdft.com/tags/RDBMS/"/>
+    <category term="postgresql" scheme="https://www.wdft.com/tags/postgresql/"/>
     
   </entry>
   
@@ -660,9 +660,9 @@
     
     <category term="Tutorial" scheme="https://www.wdft.com/tags/Tutorial/"/>
     
-    <category term="nosql" scheme="https://www.wdft.com/tags/nosql/"/>
-    
     <category term="Redis" scheme="https://www.wdft.com/tags/Redis/"/>
+    
+    <category term="nosql" scheme="https://www.wdft.com/tags/nosql/"/>
     
   </entry>
   
@@ -690,9 +690,9 @@
     <category term="tutorial" scheme="https://www.wdft.com/categories/golang/tutorial/"/>
     
     
-    <category term="Go" scheme="https://www.wdft.com/tags/Go/"/>
-    
     <category term="changelog" scheme="https://www.wdft.com/tags/changelog/"/>
+    
+    <category term="Go" scheme="https://www.wdft.com/tags/Go/"/>
     
     <category term="History" scheme="https://www.wdft.com/tags/History/"/>
     
