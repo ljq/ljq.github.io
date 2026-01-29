@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wdft.com/512e106c.html</loc>
+    
+    <lastmod>2026-01-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wdft.com/a09da319.html</loc>
     
     <lastmod>2026-01-29</lastmod>
@@ -138,15 +147,6 @@
   
   <url>
     <loc>https://www.wdft.com/647ce9cb.html</loc>
-    
-    <lastmod>2026-01-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wdft.com/512e106c.html</loc>
     
     <lastmod>2026-01-29</lastmod>
     
@@ -2381,13 +2381,6 @@
   
   <url>
     <loc>https://www.wdft.com/categories/golang/tutorial/</loc>
-    <lastmod>2026-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wdft.com/categories/golang/tutorial/tutorial/</loc>
     <lastmod>2026-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
