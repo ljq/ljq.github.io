@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wdft.com/a6cbebf9.html</loc>
+    
+    <lastmod>2026-01-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/2ae30f65.html</loc>
+    
+    <lastmod>2026-01-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wdft.com/fa8418d.html</loc>
     
     <lastmod>2026-01-30</lastmod>
@@ -84,15 +102,6 @@
   
   <url>
     <loc>https://www.wdft.com/7c4c358b.html</loc>
-    
-    <lastmod>2026-01-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wdft.com/2ae30f65.html</loc>
     
     <lastmod>2026-01-30</lastmod>
     
@@ -2199,6 +2208,13 @@
   
   <url>
     <loc>https://www.wdft.com/tags/Eino/</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/tags/Go-time/</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
