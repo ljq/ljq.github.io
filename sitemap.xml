@@ -2,6 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wdft.com/931e25c9.html</loc>
+    
+    <lastmod>2026-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/636a4968.html</loc>
+    
+    <lastmod>2026-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/2ce6fde3.html</loc>
+    
+    <lastmod>2026-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/8327b51.html</loc>
+    
+    <lastmod>2026-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/a5dcded.html</loc>
+    
+    <lastmod>2026-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/be1a8447.html</loc>
+    
+    <lastmod>2026-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/6f7a99da.html</loc>
+    
+    <lastmod>2026-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/ec7ddfed.html</loc>
+    
+    <lastmod>2026-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/599fae82.html</loc>
+    
+    <lastmod>2026-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wdft.com/62e7ef58.html</loc>
     
     <lastmod>2026-02-06</lastmod>
@@ -12,15 +93,6 @@
   
   <url>
     <loc>https://www.wdft.com/97685b19.html</loc>
-    
-    <lastmod>2026-02-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wdft.com/0.html</loc>
     
     <lastmod>2026-02-05</lastmod>
     
@@ -75,15 +147,6 @@
   
   <url>
     <loc>https://www.wdft.com/15b03ce2.html</loc>
-    
-    <lastmod>2026-02-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wdft.com/599fae82.html</loc>
     
     <lastmod>2026-02-05</lastmod>
     
@@ -246,15 +309,6 @@
   
   <url>
     <loc>https://www.wdft.com/9a6c398f.html</loc>
-    
-    <lastmod>2026-02-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wdft.com/2ce6fde3.html</loc>
     
     <lastmod>2026-02-02</lastmod>
     
@@ -2761,6 +2815,55 @@
   
   <url>
     <loc>https://www.wdft.com/tags/Go-html/</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/tags/Go-unsafe/</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/tags/Go-iter/</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/tags/Go-unique/</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/tags/Go-slices/</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/tags/Go-hash/</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/tags/Go-runtime-debug/</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wdft.com/tags/Go-flag/</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
